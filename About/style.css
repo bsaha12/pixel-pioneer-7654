@@ -1,24 +1,27 @@
-body{
+body {
     margin: 0%;
     padding: 0%;
 }
 
-.nav-contact>a{
+.nav-contact>a {
     color: #94999f;
     text-decoration: none;
 }
-.nav-contact>a:hover{
+
+.nav-contact>a:hover {
     text-decoration: none;
     color: inherit;
 }
-#nav-bar-top{
+
+#nav-bar-top {
     display: flex;
     justify-content: space-between;
     padding: 0% 2% 0% 2%;
     height: 60px;
     align-items: center;
 }
-.social-contact{
+
+.social-contact {
     display: flex;
     border: 1px solid;
     width: 88%;
@@ -27,43 +30,52 @@ body{
     height: 100%;
     color: #94999f;
 }
-.nav-contact{
+
+.nav-contact {
     display: flex;
     width: 60%;
     justify-content: left;
     gap: 3%;
     align-items: center;
 }
-.nav-social{
+
+.nav-social {
     width: 40%;
     display: flex;
     gap: 2%;
     justify-content: right;
     padding-right: 1%;
 }
-.login-signup{
+
+.login-signup {
     width: 12%;
     height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.login-signup>a{
+
+.login-signup>a {
     width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
     text-decoration: none;
 }
-.login-signup>a:hover{
+
+.login-signup>a:hover {
     text-decoration: none;
 }
-.login>svg,.signup>svg{
+
+.login>svg,
+.signup>svg {
     color: #94999f;
     text-decoration: none;
     align-self: center;
 }
-.login>p,.signup>p{
+
+.login>p,
+.signup>p {
     color: black;
     font-size: 18px;
     display: flex;
