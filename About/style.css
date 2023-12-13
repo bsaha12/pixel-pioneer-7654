@@ -48,26 +48,26 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-.login-signup>button{
+.login-signup>a{
     width: 50%;
-    background-color: transparent;
     height: 100%;
-    border: 1px solid #94999f;
     display: flex;
     justify-content: center;
-    border: transparent;
-    border-color: transparent;
-
+    text-decoration: none;
+}
+.login-signup>a:hover{
+    text-decoration: none;
 }
 .login>svg,.signup>svg{
     color: #94999f;
     text-decoration: none;
     align-self: center;
 }
-.login>a,.signup>a{
+.login>p,.signup>p{
     color: black;
     font-size: 18px;
     display: flex;
     align-items: center;
+    /* text-decoration: none; */
     height: 100%;
 }
