@@ -17,14 +17,14 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0% 2% 0% 2%;
-    height: 60px;
+    height: 65px;
     align-items: center;
     border: 1px solid #e9e9e9;
 }
 
 .social-contact {
     display: flex;
-    width: 88%;
+    width: 83%;
     align-items: center;
     justify-content: space-between;
     height: 100%;
@@ -49,7 +49,7 @@ body {
 }
 
 .login-signup {
-    width: 12%;
+    width: 17%;
     height: 100%;
     display: flex;
     justify-content: space-around;
@@ -68,17 +68,62 @@ body {
     text-decoration: none;
 }
 
-.log>span{
+.log>span {
     color: #94999f;
     text-decoration: none;
     align-self: center;
 }
 
-.login>p,
-.signup>p {
+.log>p {
     color: black;
     font-size: 18px;
     display: flex;
     align-items: center;
     height: 100%;
+}
+
+.nav-bar-bottom {
+    /* width: 75%; */
+    height: 90px;
+    /* margin: auto; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+    /* border: 1px solid #94999f; */
+}
+
+.nav-bottom {
+    width: 75%;
+}
+
+#logo-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:750px) {
+    .nav-contact {
+        display: none;
+    }
+
+    .nav-social {
+        width: 100%;
+        border: 1px solid;
+        justify-content: left;
+    }
+
+    .login-signup {
+        width: 30%;
+    }
+
+    .social-contact {
+        width: 70%;
+    }
+
+    .log>p {
+        font-size: 12px;
+    }
 }
