@@ -12,7 +12,6 @@ body{
     color: inherit;
 }
 #nav-bar-top{
-    /* border: 1px solid; */
     display: flex;
     justify-content: space-between;
     padding: 0% 2% 0% 2%;
@@ -25,29 +24,21 @@ body{
     width: 90%;
     align-items: center;
     justify-content: space-between;
-    /* gap: 2%; */
     height: 100%;
     color: #94999f;
 }
 .nav-contact{
-    /* gap: 2%; */
     display: flex;
-    /* gap: 2%; */
     width: 60%;
     justify-content: left;
-    /* height: 100%; */
     gap: 2%;
     align-items: center;
-    /* border: 1px solid; */
 }
 .nav-social{
-    /* border: 1px solid; */
     width: 40%;
     display: flex;
     gap: 2%;
     justify-content: right;
-    /* align-items: ; */
-    /* align-content: space-between; */
 }
 .login-signup{
     border: 1px solid;
