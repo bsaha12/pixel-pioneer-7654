@@ -19,16 +19,17 @@ body {
     padding: 0% 2% 0% 2%;
     height: 60px;
     align-items: center;
+    border: 1px solid #e9e9e9;
 }
 
 .social-contact {
     display: flex;
-    border: 1px solid;
     width: 88%;
     align-items: center;
     justify-content: space-between;
     height: 100%;
     color: #94999f;
+    border-right: 1px solid #e9e9e9;
 }
 
 .nav-contact {
@@ -80,6 +81,5 @@ body {
     font-size: 18px;
     display: flex;
     align-items: center;
-    /* text-decoration: none; */
     height: 100%;
 }
