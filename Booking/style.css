@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+#top {
+  height: 50vh;
+  background-image: url("https://images.pexels.com/photos/19872/pexels-photo.jpg");
+  background-size: cover;
+  background-position: 55% 55%;
+  font-family: "Kanit", sans-serif;
+}
+
+#top > div:first-child {
+  display: flex;
+  align-items: center;
+  height: 70%;
+  padding-left: 10vw;
+  font-size: 4vw;
+  color: black;
+}
+#destination {
+  display: block;
+}
+#progress {
+  height: 30%;
+  background-color: rgb(193, 239, 208, 0.5);
+  padding-left: 10vw;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 4rem;
+  font-size: 1.2rem;
+}
+.border-box {
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+}
+.progress-elems {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+  color: black;
+}
+.progress-elems svg {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.progress-check {
+  color: rgb(11, 139, 139);
+}
+.invisible {
+  display: none;
+}
+
+#forms {
+  width: 50%;
+}
+#forms svg {
+  height: 1.7rem;
+  width: 1.7rem;
+  margin-right: 1.5rem;
+}
+#forms label{
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+}
+#body {
+  box-sizing: border-box;
+  padding: 4rem 6rem;
+}
+.form-heading {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-family: "Kanit", sans-serif;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#traveller-form {
+  margin: 0 0 3rem 0;
+}
+#traveller-form > div {
+  margin: 1rem 0;
+}
+#billing-form {
+  margin: 0 0 3rem 0;
+}
+#billing-form > div {
+  margin: 1rem 0;
+}
+#formcheck{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-color: black;
+}
+#formcheck + label{
+  color: blue;
+  opacity: 0.8;
+}
+
