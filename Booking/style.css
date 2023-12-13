@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -44,13 +45,62 @@
   column-gap: 1.5rem;
   color: black;
 }
-.progress-elems  svg{
-    height: 2.5rem;
-    width: 2.5rem;
+.progress-elems svg {
+  height: 2.5rem;
+  width: 2.5rem;
 }
-.progress-check{
-    color: rgb(11, 139, 139);
+.progress-check {
+  color: rgb(11, 139, 139);
 }
-.invisible{
-    display: none;
+.invisible {
+  display: none;
 }
+
+#forms {
+  width: 50%;
+}
+#forms svg {
+  height: 1.7rem;
+  width: 1.7rem;
+  margin-right: 1.5rem;
+}
+#forms label{
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+}
+#body {
+  box-sizing: border-box;
+  padding: 4rem 6rem;
+}
+.form-heading {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-family: "Kanit", sans-serif;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#traveller-form {
+  margin: 0 0 3rem 0;
+}
+#traveller-form > div {
+  margin: 1rem 0;
+}
+#billing-form {
+  margin: 0 0 3rem 0;
+}
+#billing-form > div {
+  margin: 1rem 0;
+}
+#formcheck{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-color: black;
+}
+#formcheck + label{
+  color: blue;
+  opacity: 0.8;
+}
+
