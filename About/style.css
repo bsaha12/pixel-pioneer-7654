@@ -15,13 +15,13 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 0% 2% 0% 2%;
-    height: 50px;
+    height: 60px;
     align-items: center;
 }
 .social-contact{
     display: flex;
     border: 1px solid;
-    width: 90%;
+    width: 88%;
     align-items: center;
     justify-content: space-between;
     height: 100%;
@@ -31,7 +31,7 @@ body{
     display: flex;
     width: 60%;
     justify-content: left;
-    gap: 2%;
+    gap: 3%;
     align-items: center;
 }
 .nav-social{
@@ -39,21 +39,35 @@ body{
     display: flex;
     gap: 2%;
     justify-content: right;
+    padding-right: 1%;
 }
 .login-signup{
-    border: 1px solid;
     width: 12%;
     height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+.login-signup>button{
+    width: 50%;
+    background-color: transparent;
+    height: 100%;
+    border: 1px solid #94999f;
+    display: flex;
+    justify-content: center;
+    border: transparent;
+    border-color: transparent;
+
+}
 .login>svg,.signup>svg{
     color: #94999f;
     text-decoration: none;
+    align-self: center;
 }
 .login>a,.signup>a{
-    text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
