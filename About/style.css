@@ -125,4 +125,7 @@ body {
     .log>p {
         font-size: 12px;
     }
+    .nav-bottom{
+        width: 97%;
+    }
 }
