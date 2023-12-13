@@ -68,8 +68,7 @@ body {
     text-decoration: none;
 }
 
-.login>svg,
-.signup>svg {
+.log>span{
     color: #94999f;
     text-decoration: none;
     align-self: center;
