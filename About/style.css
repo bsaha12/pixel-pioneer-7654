@@ -1,0 +1,55 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav-contact>a{
+    color: inherit;
+    text-decoration: none;
+}
+.nav-contact>a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+#nav-bar-top{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 2% 0% 2%;
+    height: 50px;
+    align-items: center;
+}
+.social-contact{
+    display: flex;
+    /* border: 1px solid; */
+    width: 88%;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 2%; */
+    height: 100%;
+}
+.nav-contact{
+    /* gap: 2%; */
+    display: flex;
+    /* gap: 2%; */
+    width: 60%;
+    justify-content: left;
+    /* height: 100%; */
+    gap: 2%;
+    align-items: center;
+    /* border: 1px solid; */
+}
+.nav-social{
+    /* border: 1px solid; */
+    width: 40%;
+    display: flex;
+    gap: 2%;
+    justify-content: right;
+}
+.login-signup{
+    /* border: 1px solid; */
+    width: 12%;
+    /* height: 10; */
+    display: flex;
+    /* justify-content: space-between; */
+}
