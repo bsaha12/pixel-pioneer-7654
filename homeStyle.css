@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+.view{
+    min-height: 100vh;
+    min-width: 100%;
+    background-image:url(homeImages/pexels-james-wheeler-417074.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text-box{
+    width: 90%;
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 60px;
+}
+.text-box h1{
+    font-size: 250px;
+    
+}
