@@ -24,7 +24,7 @@ body {
 
 .social-contact {
     display: flex;
-    width: 83%;
+    width: 87%;
     align-items: center;
     justify-content: space-between;
     height: 100%;
@@ -49,7 +49,7 @@ body {
 }
 
 .login-signup {
-    width: 17%;
+    width: 13%;
     height: 100%;
     display: flex;
     justify-content: space-around;
@@ -93,12 +93,14 @@ body {
     align-content: center;
     /* border: 1px solid #94999f; */
 }
-#container{
-    border: 1px solid;
+#nav-100vh{
     width: 100%;
-    /* width: 100%; */
-    height: 8000px;
-    background-color: blue;
+    height: 100vh;
+    background-image: url('./images/bg-vernezza.jpg');
+    /* background-color: blue; */
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 .nav-bottom {
     width: 75%;
@@ -134,4 +136,20 @@ body {
     .nav-bottom{
         width: 97%;
     }
+}
+/* 750 - 1408 */
+
+@media all and (min-width:700px) and (max-width:1408px){
+    .log>p {
+        font-size: 15px;
+    }
+    .login-signup{
+        width: 24%;
+    }
+    .social-contact{
+        width: 76%;
+    }
+    .nav-bottom{
+        width: 85%;
+    } 
 }
