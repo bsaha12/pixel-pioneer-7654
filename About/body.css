@@ -1,0 +1,25 @@
+.about-us{
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 30%;
+    text-align: center;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.about-us>h1{
+    font-size: 90px;
+}
+.about-us>p{
+    font-size: 20px;
+}
+#nav-100vh{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/bg-vernezza.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
