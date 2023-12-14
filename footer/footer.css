@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+.footer-child-1{
+    display: flex;
+    align-content: space-evenly;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+.footer-child-2{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid green;
+}
