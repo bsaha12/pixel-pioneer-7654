@@ -42,15 +42,19 @@ data.forEach((temp) => {
 
 
     let tourbtn = document.createElement('button');
+    tourbtn.classList = "tourbtn"
     tourbtn.innerText = "3 tours";
     
     let nationHeading = document.createElement('h3');
+    nationHeading.classList = "nationHeading"
     nationHeading.textContent = temp.nationName;
     
     let nationContent = document.createElement('p');
+    nationContent.classList = "nationContent"
     nationContent.textContent = temp.nationContent;
     
     let viewbtn = document.createElement('button');
+    viewbtn.classList = "viewbtn"
     viewbtn.innerText = "View All Tours";
 
    // nationimg.append(tourbtn, nationHeading, nationContent, viewbtn);
