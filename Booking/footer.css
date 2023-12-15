@@ -1,0 +1,75 @@
+/* body {
+    margin: 0px;
+    padding: 0px;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+footer{
+    width: 100%;
+    /* height: auto; */
+    /* border: 1px solid black; */
+}
+.footer-child-1{
+    display: flex;
+    align-content: space-evenly;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    background-color: #31322c;
+    padding: 40px 10px 40px 10px;
+}
+.footer-child-2{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid green; */
+    color: white;
+    background-color: #212121;
+}
+.footer-child-1>div>p, .footer-child-2>div>p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-family: 400;
+    color: white;
+}
+.footer-child-1>div>a{
+    text-decoration: none;
+    color: white;
+}
+.footer-child-1>div>h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-family: 800;
+    font-weight: bolder;
+    color: white;
+}
+footer #debit-card>img{
+    width: 40px;
+    height: 40px;
+}
+footer #follow-us{
+    display: flex;
+    margin-left: 170px;
+}
+footer #follow-us-img{
+    margin-top: 8px;
+    margin-left: 15px;
+}
+footer .material-symbols-outlined{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px){
+    .footer-child-1{
+        display: flex;
+        flex-direction: column;
+        padding-left: 150px;
+    }
+    .footer-child-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer #follow-us{
+        margin-left: 0px;
+    }
+}
