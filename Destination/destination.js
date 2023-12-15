@@ -56,6 +56,13 @@ data.forEach((temp) => {
     let viewbtn = document.createElement('button');
     viewbtn.classList = "viewbtn"
     viewbtn.innerText = "View All Tours";
+    viewbtn.addEventListener("click", (e) => {
+        
+        populatedata(temp);
+        countrydata(baseURL);
+
+
+    })
 
    // nationimg.append(tourbtn, nationHeading, nationContent, viewbtn);
     card.append(nationimg);
@@ -66,4 +73,76 @@ data.forEach((temp) => {
 })
 card_container.append(maincontainer)
   
+}
+
+
+// next page 
+
+function populatedata(temp){
+    // seting  nation card id to lacal storage
+localStorage.setItem("cardid", temp.id);
+}
+
+
+
+// next page //  country card 
+
+let countrycardcontainer = document.getElementById("countrycardcontainer");
+
+function countrydata(url){
+    let dataretuen = localStorage.getItem("cardid")
+    fetch(`${url}/${dataretuen}`)
+    .then((res) => {
+        return res.json();
+    })
+    .then((data) => {
+        countrycard(data)
+        console.log(data);
+    })
+    .catch((error) => {
+       console.log(error) ;
+    })
+}
+//countrydata(baseURL)
+
+
+// country card 
+
+
+function countrycard(data){
+
+    countrycardcontainer.innerHTML= "";
+
+    let countrycontainer = document.createElement("div");
+    countrycontainer.classList = "countrycontainer";
+
+    data.contries.forEach((temp) => {
+        let countrycard = document.createElement('div')
+        countrycard.classList = "countrycard";
+
+        let countryimage = document.createElement('img');
+        countryimage.classList = "countryimage";
+        countryimage.src = temp.countryImg;
+
+        let countryName = document.createElement('h2');
+        countryName.classList = "countryName"
+        countryName.textContent = temp.countryName;
+
+        let TouristPlace = document.createElement('p');
+        TouristPlace.classList = "TouristPlace"
+        TouristPlace.textContent = temp.TouristPlace;
+
+        let price = document.createElement('h2');
+        price.classList = "countryprice"
+        price.textContent = temp.price;
+
+
+        countrycard.append( countryimage, countryName, TouristPlace, price);
+        countrycontainer.append(countrycard);
+
+    })
+
+    countrycardcontainer.append(countrycontainer); 
+    
+
 }

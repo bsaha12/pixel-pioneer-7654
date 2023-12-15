@@ -5,17 +5,67 @@ body {
 footer{
     width: 100%;
     height: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .footer-child-1{
     display: flex;
     align-content: space-evenly;
     /* align-items: center; */
     justify-content: space-evenly;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    background-color: #31322c;
+    padding: 40px 10px 40px 10px;
 }
 .footer-child-2{
     display: flex;
     justify-content: space-around;
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    color: white;
+    background-color: #212121;
+}
+.footerchildbydestination{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-family: 400;
+    color: white;
+    margin-bottom: 6px;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-family: 800;
+    font-weight: bolder;
+    color: white;
+}
+#debit-card>img{
+    width: 40px;
+    height: 40px;
+}
+#follow-us{
+    display: flex;
+    margin-left: 170px;
+}
+#follow-us-img{
+    margin-top: 8px;
+    margin-left: 15px;
+}
+.material-symbols-outlined{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px){
+    .footer-child-1{
+        display: flex;
+        flex-direction: column;
+        padding-left: 150px;
+    }
+    .footer-child-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #follow-us{
+        margin-left: 0px;
+    }
 }
