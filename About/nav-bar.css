@@ -144,3 +144,6 @@ body {
         width: 85%;
     } 
 }
+.logi>button{
+    font-weight: bold;
+}
