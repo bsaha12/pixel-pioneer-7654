@@ -84,9 +84,7 @@ body {
 }
 
 .nav-bar-bottom {
-    /* width: 75%; */
-    height: 90px;
-    /* margin: auto; */
+    height: auto;
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: center;
