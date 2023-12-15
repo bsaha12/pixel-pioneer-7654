@@ -69,13 +69,13 @@ body {
     text-decoration: none;
 }
 
-.log>span {
+.logi>span {
     color: #94999f;
     text-decoration: none;
     align-self: center;
 }
 
-.log>p {
+.logi>p {
     color: black;
     font-size: 18px;
     display: flex;
@@ -123,7 +123,7 @@ body {
         width: 70%;
     }
 
-    .log>p {
+    .logi>p {
         font-size: 12px;
     }
     .nav-bottom{
@@ -133,7 +133,7 @@ body {
 /* 750 - 1408 */
 
 @media all and (min-width:700px) and (max-width:1408px){
-    .log>p {
+    .logi>p {
         font-size: 15px;
     }
     .login-signup{

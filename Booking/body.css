@@ -64,6 +64,7 @@
     align-self: flex-end;
 }
 .about-img>img{
+    border-radius: 16px;
     width: 300px;
     height: 400px;
 }
@@ -126,7 +127,7 @@
 }
 #card1,#card2,#card3{
     border: none;
-    background-color: #f8f9fa;
+    background-color: transparent;
 }
 .card-name{
     color: #fc8621;
@@ -183,6 +184,9 @@
     font-size: 30px;
     font-weight: bolder;
 }
+/* .active::before{
+    content: "-";
+} */
 .question.active{
     background-color: #fc8621;
     color: white;
@@ -194,6 +198,7 @@
     justify-content: center;
     align-items: center;
     background-color: #fc8621;
+    margin-bottom: 3%;
 }
 .begin-btn{
     width: 75%;
