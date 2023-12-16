@@ -106,7 +106,7 @@
 }
 
 .nationimage {
-    position: absolute;
+    /* position: absolute; */
   height: 430px; 
     width: 100%;
     border-radius: 12px;
@@ -123,24 +123,25 @@
     border-radius: 6px;
     border-style: none;
     position: absolute;
-    top: 30px;
+    top: px;
     left: 280px;
     background-color: rgb(240, 96, 7);
     color: aliceblue;
+    opacity: 0;
 }
 
 .nationContent,
 .viewbtn {
     opacity: 0;
     position: relative;
-    top: 310px; 
+    top: -97px; 
     color: aliceblue;
 }
 
 .nationHeading {
     position: relative;
-    top: 340px; 
-    /* top: -80px; */
+    /* top: 340px;  */
+     top: -80px; 
     color: aliceblue;
 }
 
@@ -311,6 +312,8 @@ border-top-right-radius: 12px;
     position: absolute;
     top: 250px;
     left: 38%;
+    list-style: none;
+    text-decoration: none;
 
 
   
@@ -319,10 +322,13 @@ border-top-right-radius: 12px;
 
 .booknow:hover{
 background-color: aliceblue;
+
+
 }
 
 .ank{
     color: aliceblue;
+   
     
 }
 

@@ -41,9 +41,9 @@ function createcard(data) {
 
 
 
-        let tourbtn = document.createElement('button');
-        tourbtn.classList = "tourbtn"
-        tourbtn.innerText = "3 tours";
+        // let tourbtn = document.createElement('button');
+        // tourbtn.classList = "tourbtn"
+        // tourbtn.innerText = "3 tours";
 
         let nationHeading = document.createElement('h3');
         nationHeading.classList = "nationHeading"
@@ -66,7 +66,7 @@ function createcard(data) {
 
         // nationimg.append(tourbtn, nationHeading, nationContent, viewbtn);
         nationcard.append(nationimg);
-        nationcard.append(tourbtn, nationHeading, nationContent, viewbtn);
+        nationcard.append( nationHeading, nationContent, viewbtn);
         maincontainer.append(nationcard);
 
 
