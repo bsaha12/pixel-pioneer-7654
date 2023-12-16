@@ -50,6 +50,11 @@ section{
     top: 10rem;
     margin-bottom: 0%;
 }
+.line{
+    border: 1px solid rgb(142, 160, 165);
+    width: 100%;
+    
+}
 .home .controls .vid-btn{
     height:1rem;
     width:1rem;
@@ -74,6 +79,7 @@ section{
     flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
     box-sizing: border-box;
     padding: 5%;
+    padding-top: 0%;
     
     /* flex-wrap: wrap; */
     
@@ -265,3 +271,64 @@ section{
 .card-para{
     margin-top: -60px;
 }
+/* css for home cards */
+/* Updated class name for the card container */
+.HomeDestCards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.homeCard {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8%;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the card image */
+  .homeCard img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style for the card title */
+  .homeCard h4 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  /* Style for the location div */
+  .locationWithIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Style for the location icon */
+  .locationWithIcon img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px; /* Adjust spacing between icon and text */
+  }
+  #pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #pagination button {
+    background-color: #3498db;
+    color: #fff;
+    border: 1px solid #3498db;
+    padding: 8px 12px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #pagination button:hover {
+    background-color: #2980b9;
+  }
+  
