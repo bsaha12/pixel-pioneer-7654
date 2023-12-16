@@ -219,3 +219,28 @@ color: rgb(4, 96, 96);
   margin-left: 4rem;
 }
 
+/* animation */
+/* #destination-dynamic-text span{
+position: relative;
+}
+#destination-dynamic-text span::after{
+  content: "";
+position: absolute;
+height: 100%;
+width: 100%;
+background: white;
+border-left: 2px solid rgb(238, 69, 97);
+left: 0;
+animation: typing 5s steps(25) infinite;
+}
+@keyframes typing{
+  100%{
+    left: 100%;
+    margin: 0 -35px 0 35px;
+  }
+} */
+#destination-dynamic-text span{
+  background: -webkit-linear-gradient(#333ab6, #de1b5f);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
