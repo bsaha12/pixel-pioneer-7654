@@ -2,20 +2,20 @@ let card_container = document.getElementById("card-container");
 let baseURL = "https://mock-api-template-cw-4.onrender.com/destinations"
 
 // fetch data 
-async function fetchdata(url){
+async function fetchdata(url) {
     try {
-      let res= await fetch(`${url}`);
-      let data = await res.json();
-      createcard (data)
-      console.log(data);  
-      
-    } 
+        let res = await fetch(`${url}`);
+        let data = await res.json();
+        createcard(data)
+        console.log(data);
+
+    }
     catch (error) {
-    console.log(error)   
-    
+        console.log(error)
+
     }
-    }
-    fetchdata(baseURL);
+}
+fetchdata(baseURL);
 
 
 
@@ -26,61 +26,61 @@ async function fetchdata(url){
 
 // create card 
 
-function createcard (data){
+function createcard(data) {
     let maincontainer = document.createElement('div')
     maincontainer.classList = "maincontainer";
 
 
-data.forEach((temp) => {
-    let card = document.createElement('div')
-    card.classList = "card";
-    
-    let nationimg = document.createElement('img');
-    nationimg.classList = "nationimage";
-    nationimg.src = temp.nationImg;
+    data.forEach((temp) => {
+        let nationcard = document.createElement('div')
+        nationcard.classList = "nationcard";
+
+        let nationimg = document.createElement('img');
+        nationimg.classList = "nationimage";
+        nationimg.src = temp.nationImg;
 
 
 
-    let tourbtn = document.createElement('button');
-    tourbtn.classList = "tourbtn"
-    tourbtn.innerText = "3 tours";
-    
-    let nationHeading = document.createElement('h3');
-    nationHeading.classList = "nationHeading"
-    nationHeading.textContent = temp.nationName;
-    
-    let nationContent = document.createElement('p');
-    nationContent.classList = "nationContent"
-    nationContent.textContent = temp.nationContent;
-    
-    let viewbtn = document.createElement('button');
-    viewbtn.classList = "viewbtn"
-    viewbtn.innerText = "View All Tours";
-    viewbtn.addEventListener("click", (e) => {
-        
-        populatedata(temp);
-        countrydata(baseURL);
+        // let tourbtn = document.createElement('button');
+        // tourbtn.classList = "tourbtn"
+        // tourbtn.innerText = "3 tours";
+
+        let nationHeading = document.createElement('h3');
+        nationHeading.classList = "nationHeading"
+        nationHeading.textContent = temp.nationName;
+
+        let nationContent = document.createElement('p');
+        nationContent.classList = "nationContent"
+        nationContent.textContent = temp.nationContent;
+
+        let viewbtn = document.createElement('button');
+        viewbtn.classList = "viewbtn"
+        viewbtn.innerText = "View All Tours";
+        viewbtn.addEventListener("click", (e) => {
+
+            populatedata(temp);
+            countrydata(baseURL);
+
+
+        })
+
+        // nationimg.append(tourbtn, nationHeading, nationContent, viewbtn);
+        nationcard.append(nationimg);
+        nationcard.append( nationHeading, nationContent, viewbtn);
+        maincontainer.append(nationcard);
 
 
     })
+    card_container.append(maincontainer)
 
-   // nationimg.append(tourbtn, nationHeading, nationContent, viewbtn);
-    card.append(nationimg);
-    card.append(tourbtn, nationHeading, nationContent, viewbtn);
-    maincontainer.append(card);
-
-
-})
-card_container.append(maincontainer)
-  
 }
 
 
 // next page 
 
-function populatedata(temp){
+function populatedata(temp) {
     // seting  nation card id to lacal storage
-localStorage.setItem("cardid", temp.id);
+    localStorage.setItem("cardid", temp.id);
 }
 
 
@@ -89,19 +89,19 @@ localStorage.setItem("cardid", temp.id);
 
 let countrycardcontainer = document.getElementById("countrycardcontainer");
 
-function countrydata(url){
+function countrydata(url) {
     let dataretuen = localStorage.getItem("cardid")
     fetch(`${url}/${dataretuen}`)
-    .then((res) => {
-        return res.json();
-    })
-    .then((data) => {
-        countrycard(data)
-        console.log(data);
-    })
-    .catch((error) => {
-       console.log(error) ;
-    })
+        .then((res) => {
+            return res.json();
+        })
+        .then((data) => {
+            countrycard(data)
+            console.log(data);
+        })
+        .catch((error) => {
+            console.log(error);
+        })
 }
 //countrydata(baseURL)
 
@@ -109,9 +109,9 @@ function countrydata(url){
 // country card 
 
 
-function countrycard(data){
+function countrycard(data) {
 
-    countrycardcontainer.innerHTML= "";
+    countrycardcontainer.innerHTML = "";
 
     let countrycontainer = document.createElement("div");
     countrycontainer.classList = "countrycontainer";
@@ -136,29 +136,25 @@ function countrycard(data){
         price.classList = "countryprice"
         price.textContent = temp.price;
 
-        
+
         let booknow = document.createElement('button');
         booknow.classList = "booknow"
-        
-       
 
-        let ank =  document.createElement('a');
+
+
+        let ank = document.createElement('a');
         ank.innerText = "Book Now";
-
-ank.href = "../Booking/booking.html";
+        ank.classList = "ank"
+        ank.href = "../Booking/booking.html";
 
 
         booknow.append(ank);
-
-
-
-
-        countrycard.append( countryimage, countryName, TouristPlace, price, booknow);
+        countrycard.append(countryimage, countryName, TouristPlace, price, booknow);
         countrycontainer.append(countrycard);
 
     })
 
-    countrycardcontainer.append(countrycontainer); 
-    
+    countrycardcontainer.append(countrycontainer);
+
 
 }

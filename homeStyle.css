@@ -1,30 +1,267 @@
 *{
     margin: 0%;
     padding: 0%;
+    font-family: 'DM Sans', sans-serif;
 }
-
-
-
-
-.view{
+section{
+    padding: 2rem 9%;
+}
+.home{
     min-height: 100vh;
-    min-width: 100%;
-    background-image:url(homeImages/pexels-james-wheeler-417074.jpg);
-    background-position: center;
-    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
     position: relative;
+    z-index: 0;
+    font-family: 'DM Sans', sans-serif;
 }
-.text-box{
-    width: 90%;
-    color:white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+
+.home .content{
     text-align: center;
-    font-size: 60px;
 }
-.text-box h1{
-    font-size: 250px;
+.home .content h3{
+    font-size: 12rem;
+    color: #f5f6f7;
+    text-transform: uppercase;
+    text-shadow: 0 .3rem .5 rem rgba(0,0,0,0.1);
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+.home .content p{
+    font-size: 4rem;
+    color: #fff;
+   margin-top: 0%;
+   padding-top: 0%;
+}
+.home .video-container video{
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.home .controls{
+    padding: 0.5rem;
+    border-radius: 5rem;
+    background: rgba(0,0,0,0.7);
+    position: relative;
+    top: 10rem;
+    margin-bottom: 0%;
+}
+.home .controls .vid-btn{
+    height:1rem;
+    width:1rem;
+    display: inline-block;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    margin: 0 .5rem;
+}
+.home .controls .vid-btn.active{
+  background: rgb(99, 198, 223);
+}
+
+/* home-Destinations section starts */
+.homeDestinations{
+    min-height: 100vh;
+    background: #e1e5ea;
+   
+}
+.HomeSectionNameInfo{
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+    box-sizing: border-box;
+    padding: 5%;
     
+    /* flex-wrap: wrap; */
+    
+}
+.HomeSectionNameInfo .HomeName{
+    flex: 0 0 30%; /* Flex shorthand: flex-grow, flex-shrink, flex-basis */
+      box-sizing: border-box;
+      align-self: flex-start;
+      padding-top: 4%;
+}
+.HomeSectionNameInfo .HomeName p{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.HomeSectionNameInfo .homeInfo{
+    flex: 0 0 70%; /* Flex shorthand: flex-grow, flex-shrink, flex-basis */
+    box-sizing: border-box;
+    align-self: flex-start;
+    padding: 4%;
+    margin-left: .1.5%;
+}
+.HomeSectionNameInfo .homeInfo h5{
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 0%;
+    /* align-self: flex-start; */
+} 
+.HomeBookings {
+    background: black;
+    color: #fff;
+}
+.HomeBookings .HomeBookingsCards{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.HomeBookingsCards .HomeBookingsCardsLeft{
+    flex: 30%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+.HomeBookingsCardsLeft .homeBookLeftCard{
+    padding: 2%;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+.homeBookLeftCard h6{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.homeBookLeftCard p{
+    color: #7a7e82;
+}
+.HomeBookingsCards .HomeBookingsCardsRight{
+    flex: 70%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+.HomeBookingsCardsRight .homeBookLeftCard{
+    margin-top: 4%;
+}
+.HomeBookingsCardsRight .homeBookBtns{
+    display: flex;
+    padding: 5% 0%;
+}
+.homeBookBtns .homeBookBtn{
+    padding: 1% 1.5%;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 400;
+}
+#homeBookbtnBook{
+    background: white;
+    color: black;
+    border: .5px dotted white;
+}
+#homeBookbtnDetails{
+    margin-left: 3%;
+    background: black;
+    color: #fff;
+    border: .5px dotted white;
+}
+.HomeBookVideo iframe{
+    
+    width: 70%;
+    border-radius: 15px;
+}
+/* Why choose us section */
+.HomeWhyDiv{
+    background: #e1e5ea;
+}
+.HomeWhyDiv .HomeWhyReasons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2%;
+    align-items: center;
+}
+.HomeWhyReasons .whyCards img{
+    height: 50px;
+    width: 50px;
+    padding-bottom: 2%;
+}
+.HomeWhyReasons .whyCards p{
+    font-size: 2rem;
+    font-weight: 200;
+    
+}
+/* reviews section */
+.HomeReviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testi-faq{
+    padding: 5% 0% 2% 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f8f9fa; */
+    /* border: 1px solid; */
+}
+.testimonitals{
+    /* height: 500px;  */
+    width: 75%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+}
+.test{
+    margin-top: 0px;
+}
+.test-crou-feedback{
+    display: flex;
+    /* border: 1px solid; */
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+   
+}
+.test-crou-feedback h1{
+    text-align: center;
+}
+.test-carousel{
+    width: 100%;
+}
+.test-crou-feedback>p{
+    color: black;
+    font-size: 20px;
+}
+.test-crou-feedback>h1{
+    font-size: 42px;
+}
+.card{
+    margin: 0%;
+    background-color: #f8f9fa;
+    border: none;
+}
+.card>p:nth-child(1){
+    color: black;
+}
+.card>img{
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 2%;
+}
+#card1,#card2,#card3{
+    border: none;
+    background-color: transparent;
+}
+.card-name{
+    color: black;
+    margin-bottom: 0%;
+    font-size: 25px;
+}
+.card-pos{
+    margin-bottom: 0%;
+    /* padding: 0%; */
+    font-size: 22px;
+    margin-top: 0%;
+}
+.card-quote{
+    font-size: 80px;
+    margin-top: -15px;
+}
+.card-para{
+    margin-top: -60px;
 }

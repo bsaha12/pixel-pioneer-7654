@@ -27,6 +27,7 @@
 
 }
 
+
 .Destination-content2 {
     font-size: 30px;
     font-weight: bold;
@@ -34,13 +35,13 @@
     margin-top: 20px;
 }
 
-.card {
+.nationcard{
     height: 430px;
     border: 1px solid green;
     text-align: center;
     border-radius: 12px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    ;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    ; */
 }
 
 
@@ -50,10 +51,54 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
+   
 
 
 
 }
+
+
+@media (max-width: 1000px){
+    
+.maincontainer {
+    width: 65%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+
+}
+.Destination-content1{
+    font-size: 50px;
+    transition: all 2s linear;
+}
+
+.Destination-content2{
+    font-size: 30px;
+    transition: all 2s linear;
+}
+
+}
+
+@media (max-width: 660px){
+    
+    .maincontainer {
+        width: 65%;
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+    
+    }
+    .Destination-content1{
+        font-size: 40px;
+    }
+    .Destination-content2{
+        font-size: 25px;
+        transition: all 2s linear;
+    }
+    
+    }
 
 #card_container {
     height: 900px;
@@ -61,7 +106,8 @@
 }
 
 .nationimage {
-    height: 430px;
+    /* position: absolute; */
+  height: 430px; 
     width: 100%;
     border-radius: 12px;
 }
@@ -76,24 +122,26 @@
     padding: 5px;
     border-radius: 6px;
     border-style: none;
-    position: relative;
-    top: -400px;
-    left: 110px;
+    position: absolute;
+    top: px;
+    left: 280px;
     background-color: rgb(240, 96, 7);
     color: aliceblue;
+    opacity: 0;
 }
 
 .nationContent,
 .viewbtn {
     opacity: 0;
     position: relative;
-    top: -100px;
+    top: -97px; 
     color: aliceblue;
 }
 
 .nationHeading {
     position: relative;
-    top: -80px;
+    /* top: 340px;  */
+     top: -80px; 
     color: aliceblue;
 }
 
@@ -104,7 +152,8 @@
 } */
 
 
-.card:hover .nationHeading {
+.nationcard:hover .nationHeading {
+   
     opacity: 1;
     transform: translateY(-150px);
     transition: all;
@@ -112,7 +161,8 @@
     transition-timing-function: linear;
 }
 
-.card:hover .nationContent {
+.nationcard:hover .nationContent {
+
     opacity: 1;
     transform: translateY(-150px);
     transition: all;
@@ -121,7 +171,8 @@
 }
 
 
-.card:hover .viewbtn {
+.nationcard:hover .viewbtn {
+ 
     opacity: 1;
     transform: translateY(-150px);
     transition: all;
@@ -129,7 +180,7 @@
     transition-timing-function: linear;
 }
 
-.card:hover {
+.nationcard:hover {
 
     transform: scale(1.05);
     transition: all;
@@ -154,10 +205,12 @@
 }
 
 .viewbtn {
+     /* position: absolute;  */
     padding: 6px;
+    margin: auto;
     margin-top: 10px;
     width: 40%;
-    font-size: 10px;
+    font-size: 12px;
     background-color: rgb(240, 108, 26);
     color: aliceblue;
     word-spacing: 3px;
@@ -175,10 +228,43 @@
 .countrycontainer{
 display: grid;
 grid-template-columns: repeat(3, 1fr);
-grid-gap: 25px;
+grid-gap: 40px;
 margin: auto;
+margin-bottom: 60px;
+/* height: 500px;  */
 
 }
+
+@media (max-width: 1000px){
+
+    .countrycontainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+        margin: auto;
+        margin-bottom: 60px;
+        /* height: 500px;  */
+        
+        }
+
+
+}
+
+@media (max-width: 660px){
+
+    .countrycontainer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+        margin: auto;
+        margin-bottom: 60px;
+        /* height: 500px;  */
+        
+        }
+
+
+}
+
 
 .countryimage{
 height: 270px;
@@ -190,20 +276,59 @@ border-top-right-radius: 12px;
 
 
 .countrycard{
+    position: relative;
     border-radius: 12px;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    height: 370px;
+    /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+    height: 470px;
     background-color: rgb(243, 232, 232);
 }
 
 .countryprice{
-    color: rgb(252, 134, 75);
+    color: rgb(240, 96, 7);
     margin: 7px;
+    position: absolute;
+    top: 410px;
+    left: 70%;
+    font-size: 23px;
 }
 
 .countryName{
-    color: rgb(252, 134, 75);
-    margin: 7px;
+    color: rgb(240, 96, 7);
+    margin-top: 45px;
+    margin-left: 15px;
 }
 
+.TouristPlace{
+    margin-left: 15px; 
+}
+
+.booknow{
+    height: 40px;
+    width: 25%;
+    border-radius: 8px;
+    background-color: rgb(240, 96, 7);
+    border-style: none;
+    font-size: 17px;
+    position: absolute;
+    top: 250px;
+    left: 38%;
+    list-style: none;
+    text-decoration: none;
+
+
+  
+  
+}
+
+.booknow:hover{
+background-color: aliceblue;
+
+
+}
+
+.ank{
+    color: aliceblue;
+   
+    
+}
 

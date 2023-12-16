@@ -7,32 +7,418 @@
     <link rel="stylesheet" href="homeStyle.css">
     <meta name="description" content="This is traval website">
     <meta name="title" content="Banjara-A way of living Life">
-    <link rel="stylesheet" href="About/style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    <!-- bootstap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+<!-- navbar css -->
+<link rel="stylesheet" href="About/nav-bar.css">
+<!-- footer css -->
+<link rel="stylesheet" href="footer/footer.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:opsz,wght@9..40,300;9..40,400&family=DM+Serif+Display&family=Jost:wght@600&family=Lato:wght@700&family=Poppins:wght@300&family=Raleway&family=Roboto:ital,wght@0,300;0,500;1,300&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
 </head>
 <body>
-  
+    <header>    <div id="nav-bar-top">
+      <div class="social-contact">
+        <div class="nav-contact">
+          <!-- <i class="fa fa-envelope" style="font-size:24px">jklklkjl</i> -->
+          <a href="tel:+91 3900550220"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-telephone"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+              />
+            </svg>
+            +91 3900550220</a
+          >
+          <a href="mailto:contact@banjara.com"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-envelope"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"
+              />
+            </svg>
+            contact@banjara.com</a
+          >
+        </div>
+        <div class="nav-social">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-facebook"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-threads"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M6.321 6.016c-.27-.18-1.166-.802-1.166-.802.756-1.081 1.753-1.502 3.132-1.502.975 0 1.803.327 2.394.948.591.621.928 1.509 1.005 2.644.328.138.63.299.905.484 1.109.745 1.719 1.86 1.719 3.137 0 2.716-2.226 5.075-6.256 5.075C4.594 16 1 13.987 1 7.994 1 2.034 4.482 0 8.044 0 9.69 0 13.55.243 15 5.036l-1.36.353C12.516 1.974 10.163 1.43 8.006 1.43c-3.565 0-5.582 2.171-5.582 6.79 0 4.143 2.254 6.343 5.63 6.343 2.777 0 4.847-1.443 4.847-3.556 0-1.438-1.208-2.127-1.27-2.127-.236 1.234-.868 3.31-3.644 3.31-1.618 0-3.013-1.118-3.013-2.582 0-2.09 1.984-2.847 3.55-2.847.586 0 1.294.04 1.663.114 0-.637-.54-1.728-1.9-1.728-1.25 0-1.566.405-1.967.868ZM8.716 8.19c-2.04 0-2.304.87-2.304 1.416 0 .878 1.043 1.168 1.6 1.168 1.02 0 2.067-.282 2.232-2.423a6.217 6.217 0 0 0-1.528-.161"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-twitter-x"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="login-signup">
+        <a href="#" class="logi login">
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" fill="currentColor" class="bi bi-lock"
+          viewBox="0 0 16 16">
+          <path
+            d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2m3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2M5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1" />
+        </svg> -->
+          <span class="material-symbols-outlined"> lock </span>
+          <!-- <p>Login</p> -->
+          <button class="btn" data-toggle="modal" data-target="#LoginModal">
+            Login
+          </button>
+        </a>
+        <a href="#" class="logi signup">
+          <span class="material-symbols-outlined"> person </span>
+          <!-- <p>Sign Up</p> -->
+          <button class="btn" data-toggle="modal" data-target="#SignUpModal">
+            Sign Up
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <div class="nav-bar-bottom sticky-top">
+      <div class="nav-bottom">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" id="logo-img" href="../index.html"
+            ><img src="../About/images/logo1.png" alt="logo" height="45px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-dark mr-5 font-weight-bold"
+                  href="../index.html"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item mr-5">
+                <a
+                  class="nav-link text-dark font-weight-bold"
+                  href="../Destination/destination.html"
+                  >DESTINATION</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle mr-5 text-dark font-weight-bold"
+                  href="../Booking/booking.html"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  BOOKING
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="../Booking/booking.html"
+                    >Domestic Trip</a
+                  >
+                  <a class="dropdown-item" href="../Booking/booking.html"
+                    >International Trip</a
+                  >
+                  <!-- <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a> -->
+                </div>
+              </li>
+              <li class="nav-item mr-5">
+                <a
+                  class="nav-link text-dark font-weight-bold"
+                  href="../About/about.html"
+                  >ABOUT US</a
+                >
+              </li>
+
+              <li class="nav-item mr-5">
+                <a
+                  class="nav-link text-dark font-weight-bold"
+                  href="../Contact/contact.html"
+                  >CONTACT US</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div></header>  
     <main>
         <!-- preloader -->
         
 
          <!-- section landing page 1-->
-     <section class="view">
-     <div class="text-box" >
-        <h1>Banjara</h1>
-        <h4>A way of living</h4>
-        
-     </div>
-    
+     <section class="home" id="home">
+     <div class="content" >
+        <h3>Banjara</h3>
+        <p>A way of life...</p>
+      </div>
+    <div class="controls">
+      <span class="vid-btn active" data-src="homeImages/vid-1.mp4"></span>
+      <span class="vid-btn" data-src="homeImages/vid-2.mp4"></span>
+      <span class="vid-btn" data-src="homeImages/vid-3.mp4"></span>
+      <span class="vid-btn" data-src="homeImages/vid-4.mp4"></span>
+    </div>
+    <div class="video-container">
+      <video src="homeImages/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
     </section>
-    </main>
-    <footer></footer>
+    <section class="homeDestinations">
+      <div class="HomeSectionNameInfo">
+        <div class="HomeName">
+          <p><span>01.</span> Destinations</p>
+        </div>
+        <div class="homeInfo">
+          <h5>Find your Perfect Destinations The Ultimate Guide To Your Dream Destnation</h5>
+        </div>
+      </div>
+      <div class="HomeDestCards"></div>
+    </section>
+    <section class="HomeBookings">
+      <div class="HomeSectionNameInfo">
+        <div class="HomeName">
+          <p><span>02.</span> Bookings</p>
+        </div>
+        <div class="homeInfo">
+          <h5>Explore Recommended Top Destinations</h5>
+        </div>
+      </div>
+      <div class="HomeBookingsCards">
+      <div class="HomeBookingsCardsLeft">
+        <div class="homeBookLeftCard">
+          <h6>Cape Town Tour</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo pariatur similique </p>
+          <div class="BookDark">
+            <span class="BookDate">24-30 December</span>
+            <span class="BookDuration">4 Days 3 Nights</span>
+          </div>
+        </div>
+        <div class="homeBookLeftCard">
+          <h6>New Orleans</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo pariatur similique </p>
+          <span class="HomeNextBookIcon"></span>
+          <div class="BookDark">
+            <span class="BookDate">24-30 December</span>
+            <span class="BookDuration">4 Days 3 Nights</span>
+          </div>
+        </div>
+        <div class="homeBookLeftCard">
+          <h6>The Maldives</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo pariatur similique </p>
+          <div class="BookDark">
+            <span class="BookDate">24-30 December</span>
+            <span class="BookDuration">4 Days 3 Nights</span>
+          </div>
+        </div>
+      </div>
+      <div class="HomeBookingsCardsRight">
+        <div class="homeBookLeftCard">
+          <h6>Dubrovnik, Crotia</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo pariatur similique<br> nesciunt  dolorem id ut minus cum ad vero quae? Laudantium voluptates quisquam <br>tempora, possimus laboriosam dolorum a incidunt sapiente?</p>
+          <div class="BookDark">
+            <span class="BookDate">24-30 December</span>
+            <span class="BookDuration">4 Days 3 Nights</span>
+          </div>
+        </div>
+        <div class="homeBookBtns">
+          <button class="homeBookBtn" id="homeBookbtnBook">Book Now</button>
+          <button class="homeBookBtn" id="homeBookbtnDetails">View Details</button>
+        </div>
+        <div class="HomeBookVideo">
+          <iframe  height="315" src="https://www.youtube.com/embed/RfAL3saXPzE?si=bGlCpXlNDhjY6-tY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="HomeWhyDiv">
+      <div class="HomeSectionNameInfo">
+        <div class="HomeName">
+          <p><span>03.</span> Why Choose us</p>
+        </div>
+        <div class="homeInfo">
+          <h5>Choose Banjara &amp; Get Wide Range Of Travel Benefits</h5>
+        </div>
+      </div>
+      <div class="HomeWhyReasons">
+        <div class="whyCards">
+          <img src="homeImages/travel.png" alt="photuu">
+          <p>Lot of Choices</p>
+          <span class="whyReasonsData">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam alias optio accusantium maxime incidunt inventore odio, quas dignissimos? Quos possimus debitis distinctio eos porro non maiores fugit, officiis vero corrupti.</span>
+        </div>
+        <div class="whyCards">
+          <img src="homeImages/travel-luggage.png" alt="photuu">
+          <p>Best Tour Guide</p>
+          <span class="whyReasonsData">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam alias optio accusantium maxime incidunt inventore odio, quas dignissimos? Quos possimus debitis distinctio eos porro non maiores fugit, officiis vero corrupti.</span>
+        </div>
+        <div class="whyCards">
+          <img src="homeImages/passport.png" alt="photuu">
+          <p>Easy Bookings</p>
+          <span class="whyReasonsData">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam alias optio accusantium maxime incidunt inventore odio, quas dignissimos? Quos possimus debitis distinctio eos porro non maiores fugit, officiis vero corrupti.</span>
+        </div>
+      </div>
+      <div class="HomeReviews">
+        <div class="testi-faq">
+          <div class="testimonitals">
+            <div class="test-crou-feedback">
+              
+              <h1>Reviews</h1>
+              <div class="test test-carousel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="card" id="card1">
+                        <img src="https://preview.colorlib.com/theme/passport/images/person_3.jpg" alt="test-img">
+                        <p class="card-name">John Snow</p>
+                        <p class="card-pos">CEO, Founder</p>
+                        <p class="card-quote">“</p>
+                        <p class="card-para">“Far far away, behind the word mountains, far from the countries Vokalia and
+                          Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast
+                          of the Semantics, a large language ocean.”</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="card" id="card2">
+                        <img src="https://preview.colorlib.com/theme/passport/images/person_3.jpg" alt="test-img">
+                        <p class="card-name">John Snow</p>
+                        <p class="card-pos">CEO, Founder</p>
+                        <p class="card-quote">“</p>
+                        <p class="card-para">“Far far away, behind the word mountains, far from the countries Vokalia and
+                          Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast
+                          of the Semantics, a large language ocean.”</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="d-block card w-100" id="card3">
+                        <img src="https://preview.colorlib.com/theme/passport/images/person_3.jpg" alt="test-img">
+                        <p class="card-name">John Snow</p>
+                        <p class="card-pos">CEO, Founder</p>
+                        <p class="card-quote">“</p>
+                        <p class="card-para">“Far far away, behind the word mountains, far from the countries Vokalia and
+                          Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast
+                          of the Semantics, a large language ocean.”</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+    </section>
+    
     <script src="homeScript.js"></script>
+    </main>
+     <!-- Footer -->
+     <footer>
+      <div class="footer-child-1">
+          <div>
+              <h3>Call Us</h3>
+             <p> <span class="material-symbols-outlined" style="font-size: 20px;">call</span> +6-345-3456-233</p>
+              <h3>Email</h3>
+              <p>Ask@banjara.com</p>
+          </div>
+          <div>
+              <h3>About Us</h3>
+              <a href=""><p>Our Story</p></a>
+              <a href=""><p>Travel Blog &amp; Tips</p></a>
+              <a href=""><p>Working With Us</p></a>
+              <a href=""><p>Be Our Partner</p></a>
+          </div>
+          <div>
+              <h3>Support</h3>
+              <a href=""><p>Customer Support</p></a>
+              <a href=""><p>Privacy &amp; Policy</p></a>
+              <a href=""><p>Contact Channels</p></a>
+          </div>
+          <div>
+              <h3>Pay Safely With Us</h3>
+              <p>The payment is encrypted and<br> transmitted securely with an SSL<br> protocol.</p>
+              <div id="debit-card">
+                  <img src="footer/Debit-card/visa.png" alt="">
+                  <img src="footer/Debit-card/Mastercard.png" alt="">
+                  <img src="footer/Debit-card/ae.png" alt="">
+                  <img src="footer/Debit-card/jcb.png" alt="">
+              </div>
+          </div>
+      </div>
+      <div class="footer-child-2">
+          <div>
+              <p>© 2023 Travel Tour All Rights Reserved.</p>
+          </div>
+          <div id="follow-us">
+              <div>
+                  <p>Follow Us On </p>
+              </div>
+              <div id="follow-us-img">
+                  <a href="www.facebook.com"><img src="footer/Social-icon/facebook.png" alt=""></a>
+                  <a href="www.twitter.com"><img src="footer/Social-icon/twitter.png" alt=""></a>
+                  <a href="www.instagram.com"><img src="footer/Social-icon/instagram.png" alt=""></a>
+                  <a href="www.linkedin.com"><img src="footer/Social-icon/linkedin.png" alt=""></a>
+                  <a href="www.pinterest.com"><img src="footer/Social-icon/pinterest.png" alt=""></a>
+                  <a href="www.youtube.com"><img src="footer/Social-icon/youtube.png" alt=""></a>
+              </div>
+          </div>
+      </div>
+  </footer>
+   
 </body>
 </html>
