@@ -15,7 +15,7 @@
 }
 #nav-100vh{
     width: 100%;    
-    height: calc(100vh - 155px);
+    height: calc(100vh - 135px);
     background-image: url('./images/bg-vernezza.jpg');
     background-position: center;
     background-size: cover;
@@ -245,7 +245,7 @@
         /* width: 230px; */
         width: 40%;
         /* height: 350px; */
-        height: 250px;
+        height: 340px;
     }
     .about-text>h1{
         font-size: 30px;
@@ -278,7 +278,12 @@
     }
     .about-img{
         justify-content: center;
-        height: 350px;
+        height: 370px;
+    }
+    .about-img>img{
+        width: 30%;
+        height: 100%;
+
     }
     .testimonitals{
         flex-direction: column;
@@ -286,8 +291,20 @@
     .test-crou-feedback{
         width: 100%;
     }
+    .test-crou-feedback>p{
+        font-size: 18px;
+    }
+    .test-crou-feedback>h1{
+        font-size: 40px;
+    }
+    .card{
+        width: 95%;
+    }
     #test-faq-ques{
         width: 100%;
+    }
+    #test-faq-ques>h1{
+        font-size: 40px;
     }
     .begin-btn{
         flex-direction: column;
@@ -302,13 +319,71 @@
     .begin-btn>button{
         width: 25%;
     }
-    .about-us>h1{
-        font-size: 45px;
-    }
-    .about-us>p{
-        font-size: 16px;
+    .about-text>h1{
+        font-size: 40px;
     }
     .about-us{
         width: 70%;
+    }
+    br{
+        display: none;
+    }
+}
+@media all and (max-width:450px){
+    .about-us{
+        width: 80%;
+    }
+    .about-us>h1{
+        font-size: 40px;
+    }
+    .about-us>p{
+        font-size: 18px;
+    }
+    .about-text>p:nth-child(1){
+        font-size: 20px;
+    }
+    .about-text>h1{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .about-text>p:nth-child(2),.about-text>p:nth-child(3){
+        font-size: 16px;
+    }
+    .about-text>button{
+        height: 40px;
+    }
+    .about-img>img{
+        /* border: 1px solid; */
+        width: 45%;
+    }
+    .test-crou-feedback>h1{
+        font-size: 30px;
+    }
+    .card>img{
+        width: 85px;
+    }
+    .card-name{
+        font-size: 25px;
+    }
+    .card-pos{
+        font-size: 20px;
+    }
+    .card-para{
+        font-size: 16px;
+    }
+    #test-faq-ques>h1{
+        font-size: 32px;
+    }
+    br{
+        display: block;
+    }
+    .question{
+        font-size: 18px;
+    }
+    .answer{
+        font-size: 15px;
+    }
+    .begin-btn>p{
+        font-size: 22px;
     }
 }

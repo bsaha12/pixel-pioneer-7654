@@ -1,5 +1,12 @@
+
+
+
 // video section  
+
+
+
 let videoBtn=document.querySelectorAll(".vid-btn");
+
 
 videoBtn.forEach(btn =>{
     btn.addEventListener('click',()=>{
