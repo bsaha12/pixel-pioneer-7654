@@ -1,46 +1,3 @@
-// let username = document.getElementById('uname');
-// let pass = document.getElementById('pass');
-// let conf_pass = document.getElementById('confpass');
-// let firstName = document.getElementById('fname');
-// let lastName = document.getElementById('lname');
-// let Birthdate = document.getElementById('bdate');
-// let email = document.getElementById('email');
-// let phoneNumber = document.getElementById('phone');
-// let countryName = document.getElementById('countries');
-
-
-// function signup() {
-//     let temp = {
-//         id: username.value,
-//         password: pass.value,
-//         fname: firstName.value,
-//         lname: lastName.value,
-//         DOB: Birthdate.value,
-//         Phone: phoneNumber.value,
-//         Country: countryName.value,
-//         Email: email.value,
-//     };
-
-//     fetch('https://mock-api-template-cw-4.onrender.com/users', {
-//         method: 'POST',
-//         headers: {
-//             'Content-Type': 'application/json',
-//         },
-//         body: JSON.stringify(temp),
-//     })
-//     .then(response => response.json())
-//     .then(data => {
-//         alert("Registered Successfully...");
-//     })
-//     .catch(error => {
-//         console.error(error);
-//     });
-// }
-
-
-
-
-
 
 
 function signup() {
@@ -59,6 +16,10 @@ function signup() {
         alert("Please Fill the input Fields.");
         return;
     }
+    if(getValue('pass') !== getValue('confpass')){
+        alert("Passwords are not matching..");
+        return;
+    }   
 
     fetch('https://mock-api-template-cw-4.onrender.com/users', {
         method: 'POST',
