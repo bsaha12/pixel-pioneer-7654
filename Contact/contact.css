@@ -25,7 +25,7 @@ body {
 
 .social-contact {
     display: flex;
-    width: 87%;
+    width: 84%;
     align-items: center;
     justify-content: space-between;
     height: 100%;
@@ -50,7 +50,7 @@ body {
 }
 
 .login-signup {
-    width: 13%;
+    width: 16%;
     height: 100%;
     display: flex;
     justify-content: space-around;
@@ -69,18 +69,19 @@ body {
     text-decoration: none;
 }
 
-.log>span {
+.logi>span {
     color: #94999f;
     text-decoration: none;
     align-self: center;
 }
 
-.log>p {
+.logi>p {
     color: black;
     font-size: 18px;
     display: flex;
     align-items: center;
     height: 100%;
+    font-weight: bold;
 }
 
 .nav-bar-bottom {
@@ -290,14 +291,14 @@ footer{
     }
 
     .login-signup {
-        width: 30%;
+        width: 45%;
     }
 
     .social-contact {
-        width: 70%;
+        width: 55%;
     }
 
-    .log>p {
+    .logi>p {
         font-size: 12px;
     }
     .nav-bottom{
@@ -310,7 +311,7 @@ footer{
 /* 750 - 1408 */
 
 @media all and (min-width:700px) and (max-width:1408px){
-    .log>p {
+    .logi>p {
         font-size: 15px;
     }
     .login-signup{
@@ -322,4 +323,17 @@ footer{
     .nav-bottom{
         width: 85%;
     } 
+}
+@media all and (max-width:450px) {
+    .login-signup{
+        width: 70%;
+        /* border: 1px solid red; */
+        /* font-weight: normal; */
+    }
+    .nav-social{
+        width: 30%;
+    }
+    .logi>p{
+        font-size: 10px;
+    }
 }
