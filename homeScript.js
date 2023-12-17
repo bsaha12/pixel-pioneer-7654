@@ -94,6 +94,13 @@ function renderData(data) {
 //     console.log("booking hoo rhi h");
 // });
 
+document.querySelectorAll('.HomeNextBookIcon').forEach(button => {
+  button.addEventListener('click', () => {
+    window.location.href = 'Booking/booking.html';
+  });
+});
+
+
 
 
  function renderPagination(num,query) {
