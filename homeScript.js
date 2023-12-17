@@ -1,26 +1,82 @@
+// pop up js
+document.addEventListener("DOMContentLoaded", function () {
+  const popup = document.getElementById("popupBox");
+  const closeBtn = document.getElementById("closePopupBtn");
+  const loginBtn = document.getElementById("loginBtn");
+  const signupBtn = document.getElementById("signupBtn");
+
+  // Function to check scroll position and show the popup
+  function checkScrollPosition() {
+      const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+      // Adjust the scroll position threshold as needed
+      const scrollThreshold = 500;
+
+      if (scrollPosition > scrollThreshold) {
+          popup.style.display = "block";
+      } else {
+          popup.style.display = "none";
+      }
+  }
+
+  // Event listener for the close button
+  closeBtn.addEventListener("click", function () {
+      popup.style.display = "none";
+      window.removeEventListener("scroll", checkScrollPosition);
+  });
+
+  // Event listener for the login button
+  loginBtn.addEventListener("click", function () {
+      window.location.href="login-signup/login.html";
+      console.log("Redirecting to login page...");
+  });
+
+  // Event listener for the signup button
+  signupBtn.addEventListener("click", function () {
+    window.location.href="login-signup/signup.html";
+      console.log("Redirecting to signup page...");
+  });
+
+  // Event listener for scrolling
+  window.addEventListener("scroll", checkScrollPosition);
+
+  // Close the popup if the user clicks outside of it
+  window.addEventListener("click", function (event) {
+      if (event.target === popup) {
+          popup.style.display = "none";
+          window.removeEventListener("scroll", checkScrollPosition);
+      }
+  });
+});
+
 
 
 
 // video section  
+const videoContainer = document.querySelector('.video-container');
+const videoSlider = document.getElementById('video-slider');
+const vidBtns = document.querySelectorAll('.vid-btn');
 
+// Add event listeners to video buttons
+vidBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+        const src = btn.getAttribute('data-src');
+        videoSlider.src = src;
+        videoContainer.classList.add('hide');
+        setTimeout(() => {
+            videoContainer.classList.remove('hide');
+        }, 500);
 
-
-let videoBtn=document.querySelectorAll(".vid-btn");
-
-
-videoBtn.forEach(btn =>{
-    btn.addEventListener('click',()=>{
-        document.querySelector('.controls .active').classList.remove('active');
+        vidBtns.forEach((btn) => btn.classList.remove('active'));
         btn.classList.add('active');
-        let src= btn.getAttribute('data-src');
-        document.querySelector('#video-slider').src= src;
     });
 });
+
 
 // the destinations cards
 
 const baseUrl=`https://mock-api-template-cw-4.onrender.com/destinations`;
-let data;
+
 const itemsPerPage = 3;
 //let currentPage = 1;
 async function fetchData(url, condition, page) {
@@ -29,7 +85,7 @@ async function fetchData(url, condition, page) {
         `${url}?${condition || ""}_page=${page || 1}&_limit=3`
       );
       let totalData = response.headers.get("X-Total-Count");
-      let noOfButtons = Math.ceil(totalData / 5);
+      let noOfButtons = Math.ceil(totalData / 3);
       renderPagination(noOfButtons, condition);
       let data = await response.json();
   

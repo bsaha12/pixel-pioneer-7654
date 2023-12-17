@@ -29,7 +29,7 @@
 
 </head>
 <body>
-    <header>    
+ 
       <div id="nav-bar-top">
       <div class="social-contact">
         <div class="nav-contact">
@@ -221,27 +221,44 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
-</header>  
+ 
     <main>
-        <!-- preloader -->
-        
+        <!-- pop up -->
+        <!-- The Popup Box -->
+<div id="popupBox" class="popup">
+  <div class="popup-content">
+      <span class="close" id="closePopupBtn">&times;</span>
+      <img src="homeImages/blast.png" alt="Blast Image" class="blast-image">
+      <h2>Welcome to Banjara</h2>
+      <p>Where every journey is a story waiting to be written...</p>
+      <div class="button-container">
+          <button id="loginBtn">Login</button>
+          <button id="signupBtn">Sign Up</button>
+      </div>
+  </div>
+</div>
 
          <!-- section landing page 1-->
-     <section class="home" id="home">
-     <div class="content" >
-        <h3>Banjara</h3>
-        <p>A way of life...</p>
-      </div>
-    <div class="controls">
-      <span class="vid-btn active" data-src="homeImages/vid-4.mp4"></span>
-      <span class="vid-btn" data-src="homeImages/vid-2.mp4"></span>
-      <span class="vid-btn" data-src="homeImages/vid-3.mp4"></span>
-      <span class="vid-btn" data-src="homeImages/vid-1.mp4"></span>
-    </div>
-    <div class="video-container">
-      <video src="homeImages/vid-4.mp4" id="video-slider" loop autoplay muted></video>
-    </div>
-    </section>
+         <section class="home" id="home">
+          <div class="content">
+              <h3>Banjara</h3>
+              <p>A way of life...</p>
+          </div>
+          <div class="controls">
+              <span class="vid-btn active" data-src="homeImages/vid-4.mp4"></span>
+              <span class="vid-btn" data-src="homeImages/vid-2.mp4"></span>
+              <span class="vid-btn" data-src="homeImages/vid-3.mp4"></span>
+              <span class="vid-btn" data-src="homeImages/vid-1.mp4"></span>
+          </div>
+          <div class="video-container">
+              <video id="video-slider" loop autoplay muted>
+                  <!-- Video sources here -->
+                  <source src="homeImages/vid-4.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
+          </div>
+      </section>
+      
     <section class="homeDestinations">
       <div class="HomeSectionNameInfo">
         <div class="HomeName">
@@ -313,7 +330,7 @@
       <div class="HomeBookingsCardsRight">
         <div class="homeBookLeftCard">
           <h6>Discover the Magic of Dubrovnik, Croatia</h6>
-  <p>Embark on a journey to the enchanting city of Dubrovnik, Croatia, where history, culture, and breathtaking landscapes converge. Experience the old-world charm of medieval streets, explore ancient city walls, and indulge in the vibrant local cuisine.</p>
+          <p>Embark on a journey to the enchanting city of Dubrovnik, Croatia, where history, culture, and breathtaking landscapes converge. Experience the old-world charm of medieval streets, explore ancient city walls, and indulge in the vibrant local cuisine.</p>
           <div class="BookDark">
             <span class="BookDate">24-30 December</span>
             <span class="BookDuration">4 Days 3 Nights</span>
@@ -322,7 +339,7 @@
         </div>
         <div class="homeBookBtns">
           <button class="homeBookBtn" id="homeBookbtnBook"><a href="./Booking/booking.html">Book Now</a></button>
-          <button class="homeBookBtn" id="homeBookbtnDetails"><a href="./Destination/destination.html">View Details</a></button>
+          <button class="homeBookBtn" id="homeBookbtnDetails"><a href="./destinationPakages/destinationPackages.html">View Details</a></button>
         </div>
         <div class="HomeBookVideo">
           <iframe  height="315" src="https://www.youtube.com/embed/RfAL3saXPzE?si=bGlCpXlNDhjY6-tY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -470,13 +487,14 @@
                   <p>Follow Us On </p>
               </div>
               <div id="follow-us-img">
-                  <a href="www.facebook.com"><img src="footer/Social-icon/facebook.png" alt=""></a>
-                  <a href="www.twitter.com"><img src="footer/Social-icon/twitter.png" alt=""></a>
-                  <a href="www.instagram.com"><img src="footer/Social-icon/instagram.png" alt=""></a>
-                  <a href="www.linkedin.com"><img src="footer/Social-icon/linkedin.png" alt=""></a>
-                  <a href="www.pinterest.com"><img src="footer/Social-icon/pinterest.png" alt=""></a>
-                  <a href="www.youtube.com"><img src="footer/Social-icon/youtube.png" alt=""></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="footer/Social-icon/facebook.png" alt="Facebook"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="footer/Social-icon/twitter.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="footer/Social-icon/instagram.png" alt="Instagram"></a>
+                <a href="https://www.linkedin.com" target="_blank"><img src="footer/Social-icon/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://www.pinterest.com" target="_blank"><img src="footer/Social-icon/pinterest.png" alt="Pinterest"></a>
+                <a href="https://www.youtube.com" target="_blank"><img src="footer/Social-icon/youtube.png" alt="YouTube"></a>
               </div>
+              
           </div>
       </div>
   </footer>
