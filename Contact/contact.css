@@ -1,0 +1,325 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav-contact>a {
+    color: #94999f;
+    text-decoration: none;
+}
+
+.nav-contact>a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-bar-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 2% 0% 2%;
+    height: 65px;
+    align-items: center;
+    border: 1px solid #e9e9e9;
+    background-color: whitesmoke;
+}
+
+.social-contact {
+    display: flex;
+    width: 87%;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    color: #94999f;
+    border-right: 1px solid #e9e9e9;
+}
+
+.nav-contact {
+    display: flex;
+    width: 60%;
+    justify-content: left;
+    gap: 3%;
+    align-items: center;
+}
+
+.nav-social {
+    width: 40%;
+    display: flex;
+    gap: 2%;
+    justify-content: right;
+    padding-right: 1%;
+}
+
+.login-signup {
+    width: 13%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-signup>a {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.login-signup>a:hover {
+    text-decoration: none;
+}
+
+.log>span {
+    color: #94999f;
+    text-decoration: none;
+    align-self: center;
+}
+
+.log>p {
+    color: black;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-bar-bottom {
+    /* width: 75%; */
+    height: 90px;
+    /* margin: auto; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+    /* border: 1px solid #94999f; */
+    background-color: rgba(255, 255, 255, 0.817);
+}
+.nav-bottom {
+    width: 75%;
+}
+
+#logo-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us{
+    width: 30%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.about-us>h1{
+    font-size: 80px;
+}
+.about-us>p{
+    font-size: 20px;
+}
+#nav-100vh{
+    width: 100%;
+    height: 756px;
+    background-image: url('main-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.contact-form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+.get-in-touch{
+    width: 30%;
+}
+#send-message{
+        background-color:#fd9135;
+        border: none;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 30px;
+}
+#fname:focus {
+    border-color: #fd9135;
+}
+
+.input-group{
+    width: 100%;
+    margin-bottom: 30px;
+}
+input, textarea {
+    width: 95%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fd9135;
+    font-size: 15px;
+}
+.contact-form-icon {
+    display: flex;
+    margin-bottom: 20px;
+}
+.contact-form-icon>p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.contact-form-icon>img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+.heading {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+/* Footer CSS */
+footer{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+}
+.footer-child-1{
+    display: flex;
+    align-content: space-evenly;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    background-color: #31322c;
+    padding: 40px 10px 40px 10px;
+}
+.footer-child-2{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid green; */
+    color: white;
+    background-color: #212121;
+}
+.footer-child-1>p .footer-child-2 > p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+.footer-child-1>div>h3 .footer-child-2>div>h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-family: 800;
+    font-weight: bolder;
+    color: white;
+}
+#about-us>a,h3, #Support>a,h3{
+    text-decoration: none;
+    color: white;
+}
+#call-us>p{
+    color: white;
+}
+#call-us>h3{
+    color: #fd9135;
+}
+#pay-us>p{
+    color: white;
+}
+
+#debit-card>img{
+    width: 40px;
+    height: 40px;
+}
+#follow-us{
+    display: flex;
+    margin-left: 170px;
+}
+#follow-us-img{
+    margin-top: 0px;
+    margin-left: 15px;
+}
+.material-symbols-outlined{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px){
+    .footer-child-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-evenly; */
+        text-align: center;
+        gap: 40px;
+    }
+    .footer-child-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #follow-us{
+        margin-left: 0px;
+    }
+    .contact-form{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .get-in-touch{
+        width: 80%;
+    }
+}
+@media only screen and (max-width:750px) {
+    .nav-contact {
+        display: none;
+    }
+
+    .nav-social {
+        width: 100%;
+        justify-content: left;
+    }
+
+    .login-signup {
+        width: 30%;
+    }
+
+    .social-contact {
+        width: 70%;
+    }
+
+    .log>p {
+        font-size: 12px;
+    }
+    .nav-bottom{
+        width: 97%;
+    }
+    .about-us>h1{
+        font-size: 60px;
+    }
+}
+/* 750 - 1408 */
+
+@media all and (min-width:700px) and (max-width:1408px){
+    .log>p {
+        font-size: 15px;
+    }
+    .login-signup{
+        width: 24%;
+    }
+    .social-contact{
+        width: 76%;
+    }
+    .nav-bottom{
+        width: 85%;
+    } 
+}

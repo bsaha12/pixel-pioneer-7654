@@ -52,6 +52,7 @@ function renderData(data) {
   }
   
   function createHomeCard(homeCardData) {
+    
     const homeCard = document.createElement('div');
     homeCard.classList.add('homeCard'); // Updated class name
   
@@ -78,9 +79,29 @@ function renderData(data) {
     locationDiv.appendChild(locationText);
   
     homeCard.appendChild(locationDiv);
+    homeCard.addEventListener('click', () => {
+      window.location.href = "../Booking/booking.html";
+    });
+
     return homeCard;
   }
- 
+   
+//   const linkCard = document.querySelector('.homeCard');
+
+// linkCard.addEventListener('click', () => {
+//   var bookLink="./Booking/booking.html";
+//     window.location.href = bookLink;
+//     console.log("booking hoo rhi h");
+// });
+
+document.querySelectorAll('.HomeNextBookIcon').forEach(button => {
+  button.addEventListener('click', () => {
+    window.location.href = 'Booking/booking.html';
+  });
+});
+
+
+
 
  function renderPagination(num,query) {
    
