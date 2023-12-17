@@ -1,0 +1,157 @@
+.login-text-bg-img{
+    background-image: url('login-sign.jpg');
+    width: 100%;
+    height: 250px;
+    border: 1px solid;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-text-bg-img>h1{
+    font-size: 80px;
+    color: white;
+}
+.login-modal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4.5% 0% 4.5% 0%;
+}
+#login-form{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    gap: 25px;
+}
+.hr-tag{
+    border-top: 1px solid rgba(128, 128, 128, 0.524);
+    width: 100%;
+}
+.input-email-pass{
+    display: flex;
+    justify-content: space-between;
+}
+.input-email-pass>div{
+    /* width: 48%; */
+    flex-basis: 48%;
+}
+.input-ep>input,.input-ep>select{
+    border: 1px solid;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+.rd-login>button,#login-form>button{
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#login-form>button{
+    height: 60px;
+    background-color: #fc8621;
+}
+.forget-pass>a,.terms>label>a{
+    text-decoration: none;
+    color: #fc8621;
+}
+.forget-pass{
+    align-self: flex-end;
+}
+.rd-login{
+    align-self: center;
+}
+.create-new-acc{
+    text-align: center;
+    align-self: center;
+}
+.create-new-acc>p{
+    font-size: 25px;
+    text-decoration: none;
+    /* color: #fc8621;  */
+    font-weight: bold;
+}
+.create-new-acc>a{
+    text-decoration: none;
+    color: #dc4e41;
+}
+.f{
+    background-color: #1877f2;
+}
+.g{
+    background-color: #dc4e41;
+}
+.x{
+    background-color: black;
+}
+.rd-login>button{
+    height: 40px;
+}
+.rd-login{
+    width: 65%;
+    display: flex;
+    gap: 3%;
+    justify-content: space-between;
+}
+.rd-login>button>:nth-child(3){
+    font-weight: bold;
+    margin-right: 9px;
+}
+.rd-login>button>svg{
+    width: 25px;
+    margin-right: 9px;
+}
+#uname{
+    width: 48%;
+}
+#countries{
+    color: #dc4e41;
+}
+#countries>option{
+    color: black;
+}
+#login-btn{
+    display: none;
+}
+#sign-btn{
+    display: none;
+}
+@media all and (min-width:750px) and (max-width:1539px){
+    .rd-login>button{
+        width: 100%;
+    }
+    .rd-login{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media all and (max-width:749px) {
+    #login-form{
+        width: 90%;
+    }
+    .rd-login>button>span{
+        display: none;
+    }
+    .rd-login>button{
+        /* width: 30%; */
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+    .input-email-pass{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .create-new-acc>p{
+        font-size: 20px;
+    }
+    .create-new-acc>a{
+        font-size: 16px;
+    }
+    #uname{
+        width: 100%;
+    }
+}
