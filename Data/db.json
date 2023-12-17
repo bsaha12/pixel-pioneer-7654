@@ -1,0 +1,501 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Bhaskar",
+      "email": "abc@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Aditi",
+      "email": "abc@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Poornima",
+      "email": "abc@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Khadim",
+      "email": "abc@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Lakshminarayan",
+      "email": "abc@gmail.com"
+    }
+  ],
+  "destinations": [
+    {
+      "nationImg": "https://cdn.pixabay.com/photo/2017/12/10/17/40/prague-3010407_1280.jpg",
+      "nationName": "Europe",
+      "nationContent": "Europe is a Dream.",
+      "id": 3,
+      "contries": [
+        {
+          "countryImg": "https://cdn.pixabay.com/photo/2021/07/15/08/44/town-6467851_1280.jpg",
+          "countryName": "Italy",
+          "TouristPlace": "Lake Como, Pantheon, Capri",
+          "price": "$700"
+        },
+        {
+          "countryImg": "https://cdn.pixabay.com/photo/2017/01/11/14/56/ireland-1971997_1280.jpg",
+          "countryName": "Ireland",
+          "TouristPlace": "dublin, Galway, Cork",
+          "price": "$600"
+        },
+        {
+          "countryImg": "https://cdn.pixabay.com/photo/2013/05/15/09/05/bridge-111326_1280.jpg",
+          "countryName": "Hungary",
+          "TouristPlace": "Szolnok, Tata, Miskolc ",
+          "price": "$700"
+        }
+      ]
+    },
+    {
+      "nationImg": "https://cdn.pixabay.com/photo/2017/05/14/03/14/measure-2311230_1280.jpg",
+      "nationName": "Asia",
+      "nationContent": "Asia is an entertainment.",
+      "id": 1,
+      "contries": [
+        {
+          "countryImg": "https://cdn.pixabay.com/photo/2017/04/08/10/42/burj-khalifa-2212978_1280.jpg",
+          "countryName": "Dubai",
+          "TouristPlace": "Burj Khalifa, Mono Rail, City tour",
+          "price": "$800"
+        },
+        {
+          "countryImg": "https://cdn.pixabay.com/photo/2021/10/10/20/33/mehtab-bagh-6698669_1280.jpg",
+          "countryName": "India",
+          "TouristPlace": "Taj Mahal, Golden Temples, Forts",
+          "price": "$500"
+        },
+        {
+          "countryImg": "https://cdn.pixabay.com/photo/2021/08/01/21/06/shwezigon-pagoda-6515356_1280.jpg",
+          "countryName": "Thailand",
+          "TouristPlace": "Patong Beach, Pattya central, Chiang Mai",
+          "price": "$600"
+        }
+      ]
+    },
+    {
+      "nationImg": "https://cdn.pixabay.com/photo/2019/12/09/11/43/animal-4683342_1280.jpg",
+      "nationName": "Africa",
+      "nationContent": "Africa is a nightmare.",
+      "id": 2,
+      "contries": [
+        {
+          "countryImg": "https://cdn.pixabay.com/photo/2015/09/06/11/43/south-africa-927280_1280.jpg",
+          "countryName": "South Africa",
+          "TouristPlace": "Kap Town, Durban, Sun City",
+          "price": "$700"
+        },
+        {
+          "countryImg": "https://cdn.pixabay.com/photo/2017/04/19/09/12/africa-2241586_1280.jpg",
+          "countryName": "Uganda",
+          "TouristPlace": "Uganda Museum, Kibuli Mosque, Mount Elgon",
+          "price": "$600"
+        },
+        {
+          "countryImg": "https://cdn.pixabay.com/photo/2016/06/23/15/14/culture-1475550_1280.jpg",
+          "countryName": "Nigeria",
+          "TouristPlace": "Lagos, Abuja, Port Harcourt",
+          "price": "$600"
+        }
+      ]
+    },
+    {
+      "nationImg": "https://cdn.pixabay.com/photo/2017/03/05/00/34/panorama-2117310_1280.jpg",
+      "nationName": "South America",
+      "nationContent": "South America is a nightmare",
+      "id": 4,
+      "contries": [
+        {
+          "countryImg": "https://cdn.pixabay.com/photo/2017/06/05/03/55/delta-2372849_1280.jpg",
+          "countryName": "Brazil",
+          "TouristPlace": "Rio De Janeiro, Fortaleza, Salvador",
+          "price": "$700"
+        },
+        {
+          "countryImg": "https://cdn.pixabay.com/photo/2013/07/07/16/52/peru-143876_1280.jpg",
+          "countryName": "Peru",
+          "TouristPlace": "Pisac, Lima, Machu Picchu",
+          "price": "$500"
+        },
+        {
+          "countryImg": "https://cdn.pixabay.com/photo/2022/06/27/07/22/woman-7286907_1280.jpg",
+          "countryName": "Colombia",
+          "TouristPlace": "Santa Marta, Cali, Villavicencio",
+          "price": "$600"
+        }
+      ]
+    },
+    {
+      "nationImg": "https://cdn.pixabay.com/photo/2016/08/25/14/55/train-1619658_1280.jpg",
+      "nationName": "North America",
+      "nationContent": "North America is a nightmare.",
+      "id": 5,
+      "contries": [
+        {
+          "countryImg": "https://cdn.pixabay.com/photo/2016/01/13/20/24/autumn-landscape-1138875_1280.jpg",
+          "countryName": "Canada",
+          "TouristPlace": "Toronto, Vancouver, Ottawa",
+          "price": "$700"
+        },
+        {
+          "countryImg": "https://cdn.pixabay.com/photo/2020/04/24/18/02/girl-5087960_1280.jpg",
+          "countryName": "United States",
+          "TouristPlace": "National Mall, Niagara Falls, Statue of Liberty",
+          "price": "$800"
+        },
+        {
+          "countryImg": "https://cdn.pixabay.com/photo/2019/07/25/10/43/ballerina-4362282_1280.jpg",
+          "countryName": "Mexico",
+          "TouristPlace": "Oaxaca City, Monterrey, Toluca",
+          "price": "$700"
+        }
+      ]
+    },
+    {
+      "nationImg": "https://cdn.pixabay.com/photo/2014/06/20/13/11/sydney-opera-house-373144_1280.jpg",
+      "nationName": "Australia",
+      "nationContent": "Australia is a nightmare",
+      "id": 6,
+      "contries": [
+        {
+          "countryImg": "https://cdn.pixabay.com/photo/2023/03/29/09/12/winter-hike-7884967_1280.jpg",
+          "countryName": "New Holland",
+          "TouristPlace": "Longwood, Gardens, Sound Theaters, Doutch Wonderland",
+          "price": "$700"
+        },
+        {
+          "countryImg": "https://cdn.pixabay.com/photo/2013/10/17/11/43/greens-beach-196826_1280.jpg",
+          "countryName": "Tasmania",
+          "TouristPlace": "The Hazards, Mona, Lake Dove",
+          "price": "$500"
+        },
+        {
+          "countryImg": "https://cdn.pixabay.com/photo/2017/04/08/10/23/surfing-2212948_1280.jpg",
+          "countryName": "Queensland",
+          "TouristPlace": "australia Zoo, Rainforest, Four Mile Beach",
+          "price": "$500"
+        }
+      ]
+    }
+  ],
+  "booking_images": [
+    {
+      "id" : 1 ,
+      "countryImg": "https://cdn.pixabay.com/photo/2021/07/15/08/44/town-6467851_1280.jpg",
+      "countryName": "Italy",
+      "TouristPlace": "Lake Como, Pantheon, Capri",
+      "price": "$700"
+    },
+    {"id" : 2 ,
+      "countryImg": "https://cdn.pixabay.com/photo/2017/01/11/14/56/ireland-1971997_1280.jpg",
+      "countryName": "Ireland",
+      "TouristPlace": "dublin, Galway, Cork",
+      "price": "$600"
+    },
+    {"id" : 3 ,
+      "countryImg": "https://cdn.pixabay.com/photo/2013/05/15/09/05/bridge-111326_1280.jpg",
+      "countryName": "Hungary",
+      "TouristPlace": "Szolnok, Tata, Miskolc ",
+      "price": "$700"
+    },
+    {"id" : 4,
+      "countryImg": "https://cdn.pixabay.com/photo/2017/04/08/10/42/burj-khalifa-2212978_1280.jpg",
+      "countryName": "Dubai",
+      "TouristPlace": "Burj Khalifa, Mono Rail, City tour",
+      "price": "$800"
+    },
+    {
+      "id" : 5,
+      "countryImg": "https://cdn.pixabay.com/photo/2021/10/10/20/33/mehtab-bagh-6698669_1280.jpg",
+      "countryName": "India",
+      "TouristPlace": "Taj Mahal, Golden Temples, Forts",
+      "price": "$500"
+    },
+    {
+      "id" : 6,
+      "countryImg": "https://cdn.pixabay.com/photo/2021/08/01/21/06/shwezigon-pagoda-6515356_1280.jpg",
+      "countryName": "Thailand",
+      "TouristPlace": "Patong Beach, Pattya central, Chiang Mai",
+      "price": "$600"
+    },
+    {"id" : 7,
+      "countryImg": "https://cdn.pixabay.com/photo/2015/09/06/11/43/south-africa-927280_1280.jpg",
+      "countryName": "South Africa",
+      "TouristPlace": "Kap Town, Durban, Sun City",
+      "price": "$700"
+    },
+    {"id" : 8,
+      "countryImg": "https://cdn.pixabay.com/photo/2017/04/19/09/12/africa-2241586_1280.jpg",
+      "countryName": "Uganda",
+      "TouristPlace": "Uganda Museum, Kibuli Mosque, Mount Elgon",
+      "price": "$600"
+    },
+    {"id" : 9,
+      "countryImg": "https://cdn.pixabay.com/photo/2016/06/23/15/14/culture-1475550_1280.jpg",
+      "countryName": "Nigeria",
+      "TouristPlace": "Lagos, Abuja, Port Harcourt",
+      "price": "$600"
+    },
+    {"id" : 10,
+      "countryImg": "https://cdn.pixabay.com/photo/2017/06/05/03/55/delta-2372849_1280.jpg",
+      "countryName": "Brazil",
+      "TouristPlace": "Rio De Janeiro, Fortaleza, Salvador",
+      "price": "$700"
+    },
+    {"id" : 18,
+      "countryImg": "https://cdn.pixabay.com/photo/2013/07/07/16/52/peru-143876_1280.jpg",
+      "countryName": "Peru",
+      "TouristPlace": "Pisac, Lima, Machu Picchu",
+      "price": "$500"
+    },
+    {"id" : 11,
+      "countryImg": "https://cdn.pixabay.com/photo/2022/06/27/07/22/woman-7286907_1280.jpg",
+      "countryName": "Colombia",
+      "TouristPlace": "Santa Marta, Cali, Villavicencio",
+      "price": "$600"
+    },
+    {"id" : 12,
+      "countryImg": "https://cdn.pixabay.com/photo/2016/01/13/20/24/autumn-landscape-1138875_1280.jpg",
+      "countryName": "Canada",
+      "TouristPlace": "Toronto, Vancouver, Ottawa",
+      "price": "$700"
+    },
+    {"id" : 13,
+      "countryImg": "https://cdn.pixabay.com/photo/2020/04/24/18/02/girl-5087960_1280.jpg",
+      "countryName": "United States",
+      "TouristPlace": "National Mall, Niagara Falls, Statue of Liberty",
+      "price": "$800"
+    },
+    {"id" : 14,
+      "countryImg": "https://cdn.pixabay.com/photo/2019/07/25/10/43/ballerina-4362282_1280.jpg",
+      "countryName": "Mexico",
+      "TouristPlace": "Oaxaca City, Monterrey, Toluca",
+      "price": "$700"
+    },
+    {"id" : 15,
+      "countryImg": "https://cdn.pixabay.com/photo/2023/03/29/09/12/winter-hike-7884967_1280.jpg",
+      "countryName": "New Holland",
+      "TouristPlace": "Longwood, Gardens, Sound Theaters, Doutch Wonderland",
+      "price": "$700"
+    },
+    {"id" : 16,
+      "countryImg": "https://cdn.pixabay.com/photo/2013/10/17/11/43/greens-beach-196826_1280.jpg",
+      "countryName": "Tasmania",
+      "TouristPlace": "The Hazards, Mona, Lake Dove",
+      "price": "$500"
+    },
+    {"id" : 17,
+      "countryImg": "https://cdn.pixabay.com/photo/2017/04/08/10/23/surfing-2212948_1280.jpg",
+      "countryName": "Queensland",
+      "TouristPlace": "australia Zoo, Rainforest, Four Mile Beach",
+      "price": "$500"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "destination_packages":[
+    {
+      "id": 1,
+      "name": "City Lights Getaway",
+      "location": "Urban Oasis",
+      "duration": "3 days",
+      "price": 499.99,
+      "details": "Experience the vibrant city life with this 3-day urban escape."
+    },
+    {
+      "id": 2,
+      "name": "Mountain Adventure Retreat",
+      "location": "Majestic Peaks",
+      "duration": "4 days",
+      "price": 799.99,
+      "details": "Embark on an adventurous journey amidst the majestic peaks for 4 days."
+    },
+    {
+      "id": 3,
+      "name": "Tropical Paradise Relaxation",
+      "location": "Sunset Beach",
+      "duration": "5 days",
+      "price": 999.99,
+      "details": "Relax and unwind on the sandy beaches of Sunset Beach with this 5-day tropical paradise package."
+    },
+    {
+      "id": 4,
+      "name": "Cultural Heritage Tour",
+      "location": "Historic City",
+      "duration": "7 days",
+      "price": 1299.99,
+      "details": "Immerse yourself in the rich cultural heritage of a historic city on this 7-day tour."
+    },
+    {
+      "id": 5,
+      "name": "Wildlife Safari Expedition",
+      "location": "Savannah Wilderness",
+      "duration": "6 days",
+      "price": 1099.99,
+      "details": "Embark on a thrilling wildlife safari expedition in the heart of the Savannah Wilderness for 6 days."
+    },
+    {
+      "id": 6,
+      "name": "Island Paradise Discovery",
+      "location": "Tropical Oasis",
+      "duration": "8 days",
+      "price": 1499.99,
+      "details": "Discover the hidden treasures of a tropical oasis with this 8-day island paradise adventure."
+    },
+    {
+      "id": 7,
+      "name": "Snowy Mountain Retreat",
+      "location": "Snow Peaks Haven",
+      "duration": "5 days",
+      "price": 899.99,
+      "details": "Escape to the serene Snow Peaks Haven for a 5-day snowy mountain retreat."
+    },
+    {
+      "id": 8,
+      "name": "Historical Landmarks Expedition",
+      "location": "Ancient Kingdom",
+      "duration": "6 days",
+      "price": 1199.99,
+      "details": "Explore the historical landmarks of an ancient kingdom on this 6-day expedition."
+    },
+    {
+      "id": 9,
+      "name": "Beachside Bliss Getaway",
+      "location": "Sandy Shores",
+      "duration": "4 days",
+      "price": 699.99,
+      "details": "Experience beachside bliss on the sandy shores with this 4-day getaway."
+    },
+    {
+      "id": 10,
+      "name": "Jungle Adventure Expedition",
+      "location": "Tropical Rainforest",
+      "duration": "7 days",
+      "price": 1199.99,
+      "details": "Embark on an adventurous journey through the tropical rainforest on this 7-day expedition."
+    },
+    {
+      "id": 11,
+      "name": "Desert Oasis Retreat",
+      "location": "Golden Sands",
+      "duration": "4 days",
+      "price": 799.99,
+      "details": "Discover an oasis in the desert with this 4-day desert retreat amidst golden sands."
+    },
+    {
+      "id": 12,
+      "name": "Lakeview Serenity Escape",
+      "location": "Crystal Lake",
+      "duration": "3 days",
+      "price": 499.99,
+      "details": "Experience serenity with a 3-day escape to the breathtaking views of Crystal Lake."
+    },
+    {
+      "id": 13,
+      "name": "Northern Lights Adventure",
+      "location": "Polar Wonderland",
+      "duration": "6 days",
+      "price": 1099.99,
+      "details": "Witness the mesmerizing Northern Lights in the polar wonderland on this 6-day adventure."
+    },
+    {
+      "id": 14,
+      "name": "Sunrise Yoga Retreat",
+      "location": "Mountain Zen",
+      "duration": "4 days",
+      "price": 699.99,
+      "details": "Rejuvenate your mind and body with a 4-day sunrise yoga retreat in the peaceful Mountain Zen."
+    },
+    {
+      "id": 15,
+      "name": "Coastal Cliff Exploration",
+      "location": "Cliffside Horizons",
+      "duration": "5 days",
+      "price": 899.99,
+      "details": "Explore the scenic coastal cliffs and horizons with this 5-day coastal cliff exploration."
+    },
+    {
+      "id": 16,
+      "name": "Vineyard Retreat",
+      "location": "Wine Country",
+      "duration": "3 days",
+      "price": 499.99,
+      "details": "Indulge in a relaxing retreat amidst vineyards in the beautiful Wine Country for 3 days."
+    },
+    {
+      "id": 17,
+      "name": "Skydiving Adventure",
+      "location": "Adrenaline Heights",
+      "duration": "2 days",
+      "price": 299.99,
+      "details": "Experience an adrenaline-pumping skydiving adventure in the heights for 2 days."
+    },
+    {
+      "id": 18,
+      "name": "Mystical Caves Exploration",
+      "location": "Enchanted Caverns",
+      "duration": "4 days",
+      "price": 699.99,
+      "details": "Embark on a mystical journey through the enchanted caverns with this 4-day exploration."
+    },
+    {
+      "id": 19,
+      "name": "Festival Celebration Tour",
+      "location": "Cultural Fest",
+      "duration": "5 days",
+      "price": 899.99,
+      "details": "Celebrate cultural festivals with a 5-day festival celebration tour in the vibrant Cultural Fest."
+    },
+    {
+      "id": 20,
+      "name": "Space Odyssey Expedition",
+      "location": "Galactic Frontier",
+      "duration": "8 days",
+      "price": 1499.99,
+      "details": "Embark on an extraordinary space odyssey expedition to the Galactic Frontier for 8 days."
+    },
+    {
+      "id": 21,
+      "name": "Cape Town Exploration Extravaganza",
+      "location": "Cape Town",
+      "duration": "4 Days 3 Nights",
+      "price": 600,
+      "details": "Explore the wonders of Cape Town. Immerse yourself in breathtaking landscapes and vibrant culture. Unforgettable experiences await you..."
+    },
+    {
+      "id": 22,
+      "name": "Jazz and Charm in New Orleans",
+      "location": "New Orleans",
+      "duration": "4 Days 3 Nights",
+      "price": 700,
+      "details": "Experience the soulful rhythms of New Orleans. Dive into a world of music, history, and delicious cuisine. Let the city's spirit captivate your senses..."
+    },
+    {
+      "id": 23,
+      "name": "Luxury Retreat in The Maldives",
+      "location": "The Maldives",
+      "duration": "4 Days 3 Nights",
+      "price": 800,
+      "details": "Indulge in paradise on Earth at The Maldives. Surrender to crystal-clear waters and pristine beaches. A sanctuary for relaxation and unforgettable moments..."
+    },
+    {
+      "id": 24,
+      "name": "Discover the Magic of Dubrovnik, Croatia",
+      "location": "Dubrovnik, Croatia",
+      "duration": "4 Days 3 Nights",
+      "price": 900,
+      "details": "Embark on a journey to the enchanting city of Dubrovnik, Croatia, where history, culture, and breathtaking landscapes converge. Experience the old-world charm of medieval streets, explore ancient city walls, and indulge in the vibrant local cuisine."  
+    }
+  ]
+}
