@@ -85,7 +85,7 @@ section{
     
 }
 .HomeSectionNameInfo .HomeName{
-    flex: 0 0 30%; /* Flex shorthand: flex-grow, flex-shrink, flex-basis */
+    flex: 40%; /* Flex shorthand: flex-grow, flex-shrink, flex-basis */
       box-sizing: border-box;
       align-self: flex-start;
       padding-top: 4%;
@@ -95,16 +95,18 @@ section{
     font-weight: 700;
 }
 .HomeSectionNameInfo .homeInfo{
-    flex: 0 0 70%; /* Flex shorthand: flex-grow, flex-shrink, flex-basis */
+    flex: 60%; /* Flex shorthand: flex-grow, flex-shrink, flex-basis */
     box-sizing: border-box;
     align-self: flex-start;
     padding: 4%;
-    margin-left: .1.5%;
+    /* margin-left: .01%; */
+    padding-left: .8%;
 }
 .HomeSectionNameInfo .homeInfo h5{
     font-size: 3rem;
     font-weight: 700;
     padding: 0%;
+    margin-left: 0%;
     /* align-self: flex-start; */
 } 
 .HomeBookings {
@@ -117,14 +119,17 @@ section{
     box-sizing: border-box;
 }
 .HomeBookingsCards .HomeBookingsCardsLeft{
-    flex: 30%;
-    padding: 2%;
+    flex: 40%;
+    padding-left: 4.5%;
     box-sizing: border-box;
+    /* width: 40%; */
+
 }
 .HomeBookingsCardsLeft .homeBookLeftCard{
     padding: 2%;
     margin-top: 10%;
     justify-content: space-between;
+    width:60%;
 }
 .homeBookLeftCard h6{
     font-size: 1.5rem;
@@ -134,9 +139,10 @@ section{
     color: #7a7e82;
 }
 .HomeBookingsCards .HomeBookingsCardsRight{
-    flex: 70%;
+    flex: 60%;
     padding: 2%;
     box-sizing: border-box;
+
 }
 .HomeBookingsCardsRight .homeBookLeftCard{
     margin-top: 4%;
@@ -151,6 +157,17 @@ section{
     font-size: 18px;
     font-weight: 400;
 }
+.homeBookBtns .homeBookBtn a {
+    text-decoration: none;
+    color: inherit;
+}
+.homeBookBtns .homeBookBtn a:hover {
+    color: #4ba2cd; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transform: scale(1.1); 
+    
+}
+
 #homeBookbtnBook{
     background: white;
     color: black;
@@ -175,8 +192,10 @@ section{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 2%;
+    gap: 10%;
     align-items: center;
+    padding-left: 4.5%;
+    width: 98%;
 }
 .HomeWhyReasons .whyCards img{
     height: 50px;
@@ -186,7 +205,7 @@ section{
 .HomeWhyReasons .whyCards p{
     font-size: 2rem;
     font-weight: 200;
-    
+    width: fit-content;
 }
 /* reviews section */
 .HomeReviews{
@@ -282,7 +301,8 @@ section{
     border: 1px solid #ccc;
     margin: 10px;
     padding: 10px;
-    width: 200px;
+    width: 29%;
+    height: 550px;
     text-align: center;
     border-radius: 8%;
     box-sizing: border-box;
@@ -290,14 +310,17 @@ section{
   
   /* Style for the card image */
   .homeCard img {
+    border-radius: 8%;
     max-width: 100%;
-    height: auto;
+    height: 70%;
   }
   
   /* Style for the card title */
   .homeCard h4 {
+    padding-top: 10%;
+    font-weight: 800;
     margin: 10px 0;
-    font-size: 18px;
+    font-size: 1.6rem;
   }
   
   /* Style for the location div */
@@ -322,13 +345,13 @@ section{
     background-color: #3498db;
     color: #fff;
     border: 1px solid #3498db;
-    padding: 8px 12px;
+    padding: 10px 15px;
     margin: 0 5px;
     cursor: pointer;
     border-radius: 5px;
   }
   
   #pagination button:hover {
-    background-color: #2980b9;
+    background-color: #125886;
   }
   
