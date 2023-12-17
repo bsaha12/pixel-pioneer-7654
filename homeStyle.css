@@ -195,7 +195,7 @@ section{
     gap: 10%;
     align-items: center;
     padding-left: 4.5%;
-    width: 98%;
+    width: 100;
 }
 .HomeWhyReasons .whyCards img{
     height: 50px;
@@ -306,7 +306,18 @@ section{
     text-align: center;
     border-radius: 8%;
     box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
   }
+  
+
+.homeCard:hover {
+    transform: scale(1.05); /* Adjust the scale factor for the hover effect */
+    cursor: pointer;
+}
+
   
   /* Style for the card image */
   .homeCard img {
@@ -349,6 +360,7 @@ section{
     margin: 0 5px;
     cursor: pointer;
     border-radius: 5px;
+    width: 40px;
   }
   
   #pagination button:hover {
