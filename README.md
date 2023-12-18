@@ -70,11 +70,16 @@ Banjara is more than a website; it's a celebration of the human spirit of explor
 
 ## Collaborators
 
-- Collaborator 1 - [GitHub Profile](link)
+- Collaborator 1 - Bhaskar Saha [[GitHub Profile](https://github.com/bsaha12)](link)
   - Description of their contribution.
 - Collaborator 2 - [GitHub Profile](link)
   - Description of their contribution.
-
+- Collaborator 2 - [GitHub Profile](link)
+  - Description of their contribution.
+- Collaborator 2 - [GitHub Profile](link)
+  - Description of their contribution.
+- Collaborator 2 - [GitHub Profile](link)
+  - Description of their contribution.
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/your-username/banjara.git`
