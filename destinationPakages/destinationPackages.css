@@ -1,0 +1,119 @@
+.destDiv{
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.destDiv>h1{
+    font-size: 70px;
+    width: 100%;
+}
+.destDiv>p{
+    font-size: 40px;
+}
+#bigDiv{
+    width: 100%;    
+    height: calc(100vh - 135px);
+    background-image: url('../homeImages/beach.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+/* Basic styling for destination cards */
+.destCard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ddf0f8; /* Background color for the cards */
+    transition: transform 0.2s ease-in-out;
+    width: calc(33.33% - 20px); /* Three cards in a row with margin */
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    height: 300px;
+  }
+  
+  .destCard:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Styles for title */
+  .destCard h4 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: #d06969; 
+    font-weight: 800;
+  }
+  
+  /* Styles for location */
+  .destCard h5 {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #666;
+  }
+  
+  /* Styles for duration */
+  .destCard span {
+    font-size: 1rem;
+    color: #888;
+  }
+  
+  /* Styles for price */
+  .destCard h6 {
+    font-size: 1.1rem;
+    margin-top: 8px;
+    color: #3498db;
+  }
+  
+  /* Styles for details */
+  .destCard p {
+    font-size: 1rem;
+    color: #9d6464;
+  }
+  
+  /* Pagination button styles */
+  #pagination {
+    text-align: center; /* Center the pagination buttons */
+    margin-top: 20px; /* Add some space between cards and pagination */
+  }
+  
+  #pagination button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #pagination button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .destCard {
+      width: calc(50% - 20px); /* Two cards in a row on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .destCard {
+      width: 100%; /* Single column on even smaller screens */
+    }
+  }
+  
