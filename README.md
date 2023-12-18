@@ -72,14 +72,14 @@ Banjara is more than a website; it's a celebration of the human spirit of explor
 
 - Collaborator 1 - Bhaskar Saha [[GitHub Profile](https://github.com/bsaha12)]
   - I have worked on the booking page containing features like choosing a destination using the card, booking a destination, and making a payment for that chosen destination.
-- Collaborator 2 - Aditi Bhadoriya [GitHub Profile](link)
+- Collaborator 2 - Aditi Bhadoriya  [[GitHub Profile](https://github.com/aditi-keerti)]
   - Description of their contribution.
-- Collaborator 2 - Lakshminarayan Reddy[GitHub Profile](link)
+- Collaborator 2 - Lakshminarayan Reddy  [[GitHub Profile](https://github.com/imlnr)]
   - Description of their contribution.
-- Collaborator 2 - Poornima Mohabe[GitHub Profile](link)
+- Collaborator 2 - Poornima Mohabe  [[GitHub Profile](https://github.com/PoornimaMohabe)]
   - Description of their contribution.
-- Collaborator 2 - Khadim Khan [GitHub Profile](link)
-  - Description of their contribution.
+- Collaborator 2 - Khadim Khan  [[GitHub Profile](https://github.com/khadimkhan5674)]
+  - I have worked on the footer section along with the contact us page containing features like submission the query from the user and a confirmation about receiving the query from the backend side.
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/your-username/banjara.git`
