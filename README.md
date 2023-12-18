@@ -74,7 +74,7 @@ Banjara is more than a website; it's a celebration of the human spirit of explor
   - I have worked on the booking page containing features like choosing a destination using the card, booking a destination, and making a payment for that chosen destination.
 - Collaborator 2 - Aditi Bhadoriya  [[GitHub Profile](https://github.com/aditi-keerti)]
   - The home page is the starting point of any website and I have made  an attractive UI for the Home Page containing features like redirecting to internal pages and cards based on destinations.
-- Collaborator 3 - Lakshminarayan Reddy  [[GitHub Profile](https://github.com/imlnr)]
+- Collaborator 3 - M Laxminarayan Reddy  [[GitHub Profile](https://github.com/imlnr)]
   - I have worked on the login and sign-up features containing validation of existing and new users. I have also worked on the header section across all the pages and the About Us page.
 - Collaborator 4 - Poornima Mohabe  [[GitHub Profile](https://github.com/PoornimaMohabe)]
   - I have worked on the destinations page containing features like filtering destinations based on continents and also destinations are shown using cards.
