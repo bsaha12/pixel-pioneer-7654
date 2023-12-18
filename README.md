@@ -101,22 +101,28 @@ Explore the website to:
 ## Screenshots
 
 - Home Page
-  ![Home Page](screenshots/home.png)
+  ![Screenshot (145)](https://github.com/bsaha12/pixel-pioneer-7654/assets/135942341/8594f939-6dc1-43ac-8da7-6965ba054004)
+  ![Screenshot (146)](https://github.com/bsaha12/pixel-pioneer-7654/assets/135942341/4a78d14c-1e1b-4e3d-b189-c8a1874ab928)
+
+
 
 - Destination Page
-  ![Destination Page](screenshots/explore.png)
+ ![Screenshot (147)](https://github.com/bsaha12/pixel-pioneer-7654/assets/135942341/f04198e8-8a62-48ca-87ce-913f169b9cea)
 
 - Bookings Page
-  ![Booking page](screenshots/travel-guides.png)
+![Screenshot (151)](https://github.com/bsaha12/pixel-pioneer-7654/assets/135942341/fd426b86-ea0e-4b1d-892b-cb134e22c314)
 
 - About Page
-  ![About page](screenshots/reviews.png)
+  ![Screenshot (149)](https://github.com/bsaha12/pixel-pioneer-7654/assets/135942341/7a374aee-b721-4e92-8d4c-7a96f67134ef)
+
 
 - Contact Page
-  ![Itinerary Planner](screenshots/itinerary.png)
+ ![Screenshot (150)](https://github.com/bsaha12/pixel-pioneer-7654/assets/135942341/108c8702-d19b-4a7e-8cd6-452ab4d15e8e)
+
 
 - Login/SignUp Page
-  ![Login SignUP page](screenshots/contact.png)
+ ![Screenshot (152)](https://github.com/bsaha12/pixel-pioneer-7654/assets/135942341/bbf35779-8067-4512-9999-657bd20e80a3)
+
 
 - Destination Packages Page
   ![Destination Packages Page](screenshots/explore.png)
