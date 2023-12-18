@@ -1,4 +1,3 @@
-// pop up js
 document.addEventListener("DOMContentLoaded", function () {
   const popup = document.getElementById("popupBox");
   const closeBtn = document.getElementById("closePopupBtn");
@@ -7,34 +6,34 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Function to check scroll position and show the popup
   function checkScrollPosition() {
-      const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+    const scrollPosition = window.scrollY || document.documentElement.scrollTop;
 
-      // Adjust the scroll position threshold as needed
-      const scrollThreshold = 500;
+    // Adjust the scroll position threshold as needed
+    const scrollThreshold = 500;
 
-      if (scrollPosition > scrollThreshold) {
-          popup.style.display = "block";
-      } else {
-          popup.style.display = "none";
-      }
+    if (scrollPosition > scrollThreshold) {
+      popup.style.display = "block";
+    } else {
+      popup.style.display = "none";
+    }
   }
 
   // Event listener for the close button
   closeBtn.addEventListener("click", function () {
-      popup.style.display = "none";
-      window.removeEventListener("scroll", checkScrollPosition);
+    popup.style.display = "none";
+    window.removeEventListener("scroll", checkScrollPosition);
   });
 
   // Event listener for the login button
   loginBtn.addEventListener("click", function () {
-      window.location.href="login-signup/login.html";
-      console.log("Redirecting to login page...");
+    window.location.href = "login-signup/login.html";
+    console.log("Redirecting to login page...");
   });
 
   // Event listener for the signup button
   signupBtn.addEventListener("click", function () {
-    window.location.href="login-signup/signup.html";
-      console.log("Redirecting to signup page...");
+    window.location.href = "login-signup/signup.html";
+    console.log("Redirecting to signup page...");
   });
 
   // Event listener for scrolling
@@ -42,14 +41,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Close the popup if the user clicks outside of it
   window.addEventListener("click", function (event) {
-      if (event.target === popup) {
-          popup.style.display = "none";
-          window.removeEventListener("scroll", checkScrollPosition);
-      }
+    if (event.target === popup) {
+      popup.style.display = "none";
+      window.removeEventListener("scroll", checkScrollPosition);
+    }
   });
 });
-
-
 
 
 // video section  

@@ -30,8 +30,16 @@
     font-weight: normal;
     font-style: normal;
   }
+  .destinationsHolder{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    
+  }
 /* Basic styling for destination cards */
 .destCard {
+   width: 90%;
+   
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 15px;
@@ -39,9 +47,9 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: #ddf0f8; /* Background color for the cards */
     transition: transform 0.2s ease-in-out;
-    width: calc(33.33% - 20px); /* Three cards in a row with margin */
+    
     box-sizing: border-box;
-    display: inline-block;
+    
     text-align: center;
     height: 300px;
   }
