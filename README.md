@@ -105,7 +105,8 @@ Explore the website to:
   ![Screenshot (146)](https://github.com/bsaha12/pixel-pioneer-7654/assets/135942341/4a78d14c-1e1b-4e3d-b189-c8a1874ab928)
 
 #### Destination Page
- ![Screenshot (147)](https://github.com/bsaha12/pixel-pioneer-7654/assets/135942341/f04198e8-8a62-48ca-87ce-913f169b9cea)
+![Screenshot (153)](https://github.com/bsaha12/pixel-pioneer-7654/assets/135942341/2bbbce84-b8cd-4446-a2ce-039b965630f9)
+
 
 #### Bookings Page
 ![Screenshot (151)](https://github.com/bsaha12/pixel-pioneer-7654/assets/135942341/fd426b86-ea0e-4b1d-892b-cb134e22c314)
