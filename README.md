@@ -70,15 +70,15 @@ Banjara is more than a website; it's a celebration of the human spirit of explor
 
 ## Collaborators
 
-- Collaborator 1 - Bhaskar Saha [[GitHub Profile](https://github.com/bsaha12)](link)
+- Collaborator 1 - Bhaskar Saha [[GitHub Profile](https://github.com/bsaha12)]
+  - I have worked on the booking page containing features like choosing a destination using the card, booking a destination, and making a payment for that chosen destination.
+- Collaborator 2 - Aditi Bhadoriya [GitHub Profile](link)
   - Description of their contribution.
-- Collaborator 2 - [GitHub Profile](link)
+- Collaborator 2 - Lakshminarayan Reddy[GitHub Profile](link)
   - Description of their contribution.
-- Collaborator 2 - [GitHub Profile](link)
+- Collaborator 2 - Poornima Mohabe[GitHub Profile](link)
   - Description of their contribution.
-- Collaborator 2 - [GitHub Profile](link)
-  - Description of their contribution.
-- Collaborator 2 - [GitHub Profile](link)
+- Collaborator 2 - Khadim Khan [GitHub Profile](link)
   - Description of their contribution.
 ## Installation
 
