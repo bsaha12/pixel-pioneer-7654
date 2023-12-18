@@ -73,13 +73,13 @@ Banjara is more than a website; it's a celebration of the human spirit of explor
 - Collaborator 1 - Bhaskar Saha [[GitHub Profile](https://github.com/bsaha12)]
   - I have worked on the booking page containing features like choosing a destination using the card, booking a destination, and making a payment for that chosen destination.
 - Collaborator 2 - Aditi Bhadoriya  [[GitHub Profile](https://github.com/aditi-keerti)]
-  - Description of their contribution.
-- Collaborator 2 - Lakshminarayan Reddy  [[GitHub Profile](https://github.com/imlnr)]
-  - Description of their contribution.
-- Collaborator 2 - Poornima Mohabe  [[GitHub Profile](https://github.com/PoornimaMohabe)]
-  - Description of their contribution.
-- Collaborator 2 - Khadim Khan  [[GitHub Profile](https://github.com/khadimkhan5674)]
-  - I have worked on the footer section along with the contact us page containing features like submission the query from the user and a confirmation about receiving the query from the backend side.
+  - The home page is the starting point of any website and I have made  an attractive UI for the Home Page containing features like redirecting to internal pages and cards based on destinations.
+- Collaborator 3 - Lakshminarayan Reddy  [[GitHub Profile](https://github.com/imlnr)]
+  - I have worked on the login and sign-up features containing validation of existing and new users. I have also worked on the header section across all the pages and the About Us page.
+- Collaborator 4 - Poornima Mohabe  [[GitHub Profile](https://github.com/PoornimaMohabe)]
+  - I have worked on the destinations page containing features like filtering destinations based on continents and also destinations are shown using cards.
+- Collaborator 5 - Khadim Khan  [[GitHub Profile](https://github.com/khadimkhan5674)]
+  - I have worked on the footer section along with the Contact Us page containing features like submission of the query from the user and confirmation about receiving the query from the backend side.
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/your-username/banjara.git`
@@ -104,8 +104,6 @@ Explore the website to:
   ![Screenshot (145)](https://github.com/bsaha12/pixel-pioneer-7654/assets/135942341/8594f939-6dc1-43ac-8da7-6965ba054004)
   ![Screenshot (146)](https://github.com/bsaha12/pixel-pioneer-7654/assets/135942341/4a78d14c-1e1b-4e3d-b189-c8a1874ab928)
 
-
-
 - Destination Page
  ![Screenshot (147)](https://github.com/bsaha12/pixel-pioneer-7654/assets/135942341/f04198e8-8a62-48ca-87ce-913f169b9cea)
 
@@ -124,8 +122,6 @@ Explore the website to:
  ![Screenshot (152)](https://github.com/bsaha12/pixel-pioneer-7654/assets/135942341/bbf35779-8067-4512-9999-657bd20e80a3)
 
 
-- Destination Packages Page
-  ![Destination Packages Page](screenshots/explore.png)
 
 ## Contributing
 
