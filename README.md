@@ -70,7 +70,7 @@ Banjara is more than a website; it's a celebration of the human spirit of explor
 
 ## Collaborators
 
-- Collaborator 1 - Bhaskar Saha [[GitHub Profile](https://github.com/bsaha12)]
+- Collaborator 1 - Bhaskar Saha (Team Lead)  [[GitHub Profile](https://github.com/bsaha12)]
   - I have worked on the booking page containing features like choosing a destination using the card, booking a destination, and making a payment for that chosen destination.
 - Collaborator 2 - Aditi Bhadoriya  [[GitHub Profile](https://github.com/aditi-keerti)]
   - The home page is the starting point of any website and I have made  an attractive UI for the Home Page containing features like redirecting to internal pages and cards based on destinations.
@@ -92,7 +92,7 @@ Explore the website to:
 - Discover destinations and plan your next adventure.
 - Access expert-curated travel guides.
 - Interact with maps and explore points of interest.
-- Read and contribute user reviews.
+- Read and contribute to user reviews.
 - Create personalized travel itineraries.
 - Check real-time weather updates.
 - Learn about collaborators and contributors.
