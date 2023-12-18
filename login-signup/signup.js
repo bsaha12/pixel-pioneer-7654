@@ -69,6 +69,7 @@ function signup() {
     })
         .then(response => response.json())
         .then(data => {
+            
             console.log('Success:', data);
             alert("Welcome to Banjara Family....")
             window.location.href = '../index.html';

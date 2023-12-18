@@ -18,12 +18,6 @@ async function fetchdata(url) {
 fetchdata(baseURL);
 
 
-
-
-
-
-
-
 // create card 
 
 function createcard(data) {
@@ -107,6 +101,14 @@ function countrydata(url) {
 
 
 // country card 
+
+// let sortAtoZ = document.getElementById("sortingpricelow");
+// let sortZtoA = document.getElementById("sortingpricehigh");
+
+// sortAtoZ.addEventListener("click", (e) => {
+//     countrydata(baseURL,`_sort=price&_order_asc&`) ;
+// })
+
 
 
 function countrycard(data) {
